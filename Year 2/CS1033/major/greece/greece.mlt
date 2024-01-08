@@ -1,0 +1,372 @@
+<?xml version="1.0" standalone="no"?>
+<mlt LC_NUMERIC="C" version="7.6.0" title="Shotcut version 22.03.30" producer="main_bin">
+  <profile description="PAL 4:3 DV or DVD" width="1920" height="1080" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="25" frame_rate_den="1" colorspace="709"/>
+  <producer id="producer0" in="00:00:00.000" out="00:00:03.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Owner/Desktop/major/video images/Santorini.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2022-04-03T19:11:19</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">2301fc7ccc0f8f92986254e48b601c76</property>
+    <property name="shotcut:caption">Santorini.jpg</property>
+    <property name="ignore_points">1</property>
+  </producer>
+  <chain id="chain0" out="00:02:54.160">
+    <property name="length">00:02:54.200</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Owner/Desktop/major/video images/mammamia.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">9b3d3e80d6013ed184e78a8c29c414e4</property>
+    <property name="ignore_points">1</property>
+    <property name="shotcut:caption">mammamia.mp4</property>
+  </chain>
+  <chain id="chain1" out="00:03:30.080">
+    <property name="length">00:03:30.120</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Owner/Downloads/Y2Mate.is - Abba - Mamma Mia (Official Music Video)-unfzfe8f9NI-160k-1645431454248.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">5368ea6b1626e2b3fd8fd2b71ee0904c</property>
+  </chain>
+  <chain id="chain2" out="00:02:31.040">
+    <property name="length">00:02:31.080</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Owner/Downloads/Santorini Nightlife_ Best Bars &amp; Clubs in Fira.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">ba6bfb8139998c8093c1c18dac8c84aa</property>
+  </chain>
+  <chain id="chain3" out="00:10:02.160">
+    <property name="length">00:10:02.200</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Owner/Downloads/Top 10 Things to Know BEFORE Visiting SANTORINI Greece_ Travel Planning.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">21ea4a6f05c93892aaa6d8e680da078d</property>
+  </chain>
+  <producer id="producer1" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Owner/Desktop/major/video images/blackscreen.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2022-04-03T19:50:18</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">4446327765393a939be057472087e613</property>
+  </producer>
+  <playlist id="main_bin">
+    <property name="xml_retain">1</property>
+    <entry producer="producer0" in="00:00:00.000" out="00:00:03.960"/>
+    <entry producer="chain0" in="00:00:00.000" out="00:02:54.160"/>
+    <entry producer="chain1" in="00:00:00.000" out="00:03:30.080"/>
+    <entry producer="chain2" in="00:00:00.000" out="00:02:31.040"/>
+    <entry producer="chain3" in="00:00:00.000" out="00:10:02.160"/>
+    <entry producer="producer1" in="00:00:00.000" out="00:00:03.960"/>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:00:18.600">
+    <property name="length">00:00:18.640</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:00:18.600"/>
+  </playlist>
+  <producer id="producer2" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Owner/Desktop/major/video images/blackscreen.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2022-04-03T19:50:18</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">4446327765393a939be057472087e613</property>
+    <property name="shotcut:caption">blackscreen.jpg</property>
+    <filter id="filter0" out="00:00:01.000">
+      <property name="argument"></property>
+      <property name="geometry">192 403 1536 864 1</property>
+      <property name="family">Sans</property>
+      <property name="size">48</property>
+      <property name="weight">400</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">0x000000ff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">0x00000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="pixel_ratio">1</property>
+      <property name="mlt_service">qtext</property>
+      <property name="shotcut:filter">richText</property>
+      <property name="html">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Verdana'; font-size:72pt; font-weight:600; color:#ffffff;&quot;&gt;Josh Bakelaar &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Verdana'; font-size:72pt; font-weight:600; color:#ffffff;&quot;&gt;(Jbakela)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer3" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Owner/Desktop/major/video images/Santorini.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2022-04-03T19:11:19</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">2301fc7ccc0f8f92986254e48b601c76</property>
+    <property name="shotcut:caption">Santorini.jpg</property>
+    <property name="ignore_points">0</property>
+  </producer>
+  <chain id="chain4" out="00:02:54.160">
+    <property name="length">00:02:54.200</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Owner/Desktop/major/video images/mammamia.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">9b3d3e80d6013ed184e78a8c29c414e4</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">mammamia.mp4</property>
+    <property name="shotcut:defaultAudioIndex">1</property>
+    <filter id="filter1" in="00:00:06.360" out="00:00:10.760">
+      <property name="argument"></property>
+      <property name="geometry">192 108 1536 864 1</property>
+      <property name="family">Sans</property>
+      <property name="size">48</property>
+      <property name="weight">400</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">0x000000ff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">0x00000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="pixel_ratio">1</property>
+      <property name="mlt_service">qtext</property>
+      <property name="shotcut:filter">richText</property>
+      <property name="html">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Verdana'; font-size:72pt; font-weight:600; color:#ffffff;&quot;&gt;Mamma Mia&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Verdana'; font-size:72pt; font-weight:600; color:#ffffff;&quot;&gt;Based in Greece!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </chain>
+  <tractor id="tractor0" in="00:00:00.000" out="00:00:00.000">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer3" in="00:00:03.440" out="00:00:03.440"/>
+    <track producer="chain4" in="00:00:06.360" out="00:00:06.360"/>
+    <transition id="transition0">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition1">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+      <property name="mlt_service">mix</property>
+    </transition>
+  </tractor>
+  <chain id="chain5" out="00:02:31.040">
+    <property name="length">00:02:31.080</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Owner/Downloads/Santorini Nightlife_ Best Bars &amp; Clubs in Fira.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">ba6bfb8139998c8093c1c18dac8c84aa</property>
+    <property name="shotcut:caption">Santorini Nightlife_ Best Bars &amp; Clubs in Fira.mp4</property>
+    <property name="shotcut:defaultAudioIndex">1</property>
+    <filter id="filter2" in="00:00:34.600" out="00:00:39.960">
+      <property name="argument"></property>
+      <property name="geometry">192 108 1536 864 1</property>
+      <property name="family">Sans</property>
+      <property name="size">48</property>
+      <property name="weight">400</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">0x000000ff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">0x00000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="pixel_ratio">1</property>
+      <property name="mlt_service">qtext</property>
+      <property name="shotcut:filter">richText</property>
+      <property name="html">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Verdana'; font-size:72pt; font-weight:600; color:#ffffff;&quot;&gt;The Night Life In Greece is CRAZY!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </chain>
+  <chain id="chain6" out="00:10:02.160">
+    <property name="length">00:10:02.200</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Owner/Downloads/Top 10 Things to Know BEFORE Visiting SANTORINI Greece_ Travel Planning.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">21ea4a6f05c93892aaa6d8e680da078d</property>
+    <property name="shotcut:caption">Top 10 Things to Know BEFORE Visiting SANTORINI Greece_ Travel Planning.mp4</property>
+    <property name="shotcut:defaultAudioIndex">1</property>
+    <filter id="filter3" in="00:00:14.760" out="00:00:19.000">
+      <property name="argument"></property>
+      <property name="geometry">192 108 1536 864 1</property>
+      <property name="family">Sans</property>
+      <property name="size">48</property>
+      <property name="weight">400</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">0x000000ff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">0x00000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="pixel_ratio">1</property>
+      <property name="mlt_service">qtext</property>
+      <property name="shotcut:filter">richText</property>
+      <property name="html">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Verdana'; font-size:72pt; font-weight:600; color:#ffffff;&quot;&gt;The Greek Views are AWESOME!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </chain>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="producer2" in="00:00:00.000" out="00:00:01.000"/>
+    <entry producer="producer3" in="00:00:00.080" out="00:00:03.400"/>
+    <entry producer="tractor0" in="00:00:00.000" out="00:00:00.000"/>
+    <entry producer="chain4" in="00:00:06.400" out="00:00:10.760"/>
+    <blank length="00:00:00.080"/>
+    <entry producer="chain5" in="00:00:34.600" out="00:00:39.960"/>
+    <blank length="00:00:00.040"/>
+    <entry producer="chain6" in="00:00:14.760" out="00:00:19.000"/>
+  </playlist>
+  <chain id="chain7" out="00:03:30.080">
+    <property name="length">00:03:30.120</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Owner/Downloads/Y2Mate.is - Abba - Mamma Mia (Official Music Video)-unfzfe8f9NI-160k-1645431454248.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">5368ea6b1626e2b3fd8fd2b71ee0904c</property>
+    <property name="shotcut:caption">Y2Mate.is - Abba - Mamma Mia (Official Music Video)-unfzfe8f9NI-160k-1645431454248.mp3</property>
+    <property name="shotcut:defaultAudioIndex">-1</property>
+  </chain>
+  <playlist id="playlist1">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A1</property>
+    <blank length="00:00:00.040"/>
+    <entry producer="chain7" in="00:00:49.000" out="00:01:07.560"/>
+  </playlist>
+  <playlist id="playlist2">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A2</property>
+    <blank length="00:00:00.040"/>
+  </playlist>
+  <tractor id="tractor1" title="Shotcut version 22.03.30" in="00:00:00.000" out="00:00:18.600">
+    <property name="shotcut">1</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">1</property>
+    <property name="shotcut:scaleFactor">2.07438</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <track producer="playlist1" hide="video"/>
+    <track producer="playlist2" hide="video"/>
+    <transition id="transition2">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition3">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.1</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">1</property>
+    </transition>
+    <transition id="transition4">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition5">
+      <property name="a_track">0</property>
+      <property name="b_track">3</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+  </tractor>
+</mlt>

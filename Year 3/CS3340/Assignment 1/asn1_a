@@ -1,0 +1,4 @@
+#!/bin/bash
+
+javac asn1_a.java
+java asn1_a

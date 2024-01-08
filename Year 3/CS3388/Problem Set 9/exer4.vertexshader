@@ -1,0 +1,22 @@
+#version 330
+
+in vec3 position;
+in vec3 normal;
+
+uniform mat4 MVP;
+uniform mat4 view;
+uniform mat4 model;
+uniform vec3 lightPos;
+
+out vec3 fragPos;
+out vec3 fragNorm;
+out vec3 fragLightDir;
+out vec3 fragEyeDir;
+
+void main(){
+    gl_Position = MVP * vec4(position, 1.0);
+    fragPos = vec3(model * vec4(position, 1.0));
+    fragNorm = normalize(vec3(model * vec4(normal, 0.0)));
+    fragLightDir = normalize(lightPos - fragPos);
+    fragEyeDir = normalize(vec3(View * vec4(0.0, 0.0, 0.0, 1.0)) - fragPos);
+}

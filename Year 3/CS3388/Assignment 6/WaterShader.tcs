@@ -1,0 +1,59 @@
+#version 400
+
+layout (vertices = 4) out;
+
+// Input vertex data, aggregated into patches
+in vec3 position_worldspace[];
+in vec3 normal[];
+in vec2 uv[];
+
+// Output data : will be passed to TES.
+out vec3 normal_tcs[];
+out vec3 position_tcs[];
+out vec3 eye_tcs[];
+out vec3 light_tcs[];
+out vec2 uv_tcs[];
+
+// Uniform values that stay constant for the whole mesh.
+uniform mat4 modelMatrix;
+uniform mat4 viewMatrix;
+uniform mat4 projectionMatrix;
+uniform vec3 lightDirection;
+uniform vec3 eyeDirection;
+uniform float time;
+
+uniform float outerTess;
+uniform float innerTess;
+
+void main() {
+    // Use gl_InvocationID to set tessellation levels
+    gl_TessLevelOuter[0] = outerTess;
+    gl_TessLevelOuter[1] = outerTess;
+    gl_TessLevelOuter[2] = outerTess;
+    gl_TessLevelOuter[3] = outerTess;
+    gl_TessLevelInner[0] = innerTess;
+    gl_TessLevelInner[1] = innerTess;
+
+    // Output input vertex data to the TES
+    position_tcs[gl_InvocationID] = position_worldspace[gl_InvocationID];
+
+    // Compute world position of vertex and output to TES
+    vec4 worldPosition = modelMatrix * vec4(position_worldspace[gl_InvocationID], 1.0);
+    position_tcs[gl_InvocationID] = vec3(worldPosition);
+    normal_tcs[gl_InvocationID] = normalize(mat3(viewMatrix * modelMatrix) * normal[gl_InvocationID]);
+
+    // UV coordinates and output
+    vec2 texOffset = vec2(0.5, 0.5);
+    vec2 texScale = vec2(1.0, 1.0);
+    uv_tcs[gl_InvocationID] = (position_tcs[gl_InvocationID].xz + texOffset + (time * 0.08)) / texScale;
+
+    // Compute light and eye direction
+    vec4 eyePosition = vec4(0.0, 0.0, 0.0, 1.0);
+    vec4 lightDir = vec4(normalize(lightDirection), 0.0);
+    vec4 eyeDir = vec4(normalize(eyeDirection), 0.0);
+    eyePosition = viewMatrix * eyePosition;
+    eye_tcs[gl_InvocationID] = vec3(eyePosition);
+    light_tcs[gl_InvocationID] = vec3(viewMatrix * lightDir);
+
+
+}

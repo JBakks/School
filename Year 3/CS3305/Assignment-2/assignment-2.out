@@ -1,0 +1,237 @@
+Script started on 2023-02-14 15:23:00-05:00 [TERM="xterm-256color" TTY="/dev/pts/6" COLUMNS="76" LINES="39"]
+[H[2J[3J
+ASSIGNMENT 2 STARTED - Tue Feb 14 15:23:00 EST 2023
+
+Cleaning environment
+----------------------------
+rm -f assignment-2
+
+Checking environment
+----------------------------
+846ec3b283736bf8a0c1d7065e6d8de3  ./run-assignment.sh
+b700f3cacf6196fbc2d667cf1f7528d7  assignment-2.c
+Makefile: OK
+md5sum: WARNING: 1 line is improperly formatted
+
+Building environment
+----------------------------
+make all
+make[1]: Entering directory '/home/joshbakelaar/courses/3305/assignment-2'
+gcc -o assignment-2 assignment-2.c -Wall -Wpedantic -Wextra -std=gnu17
+make[1]: Leaving directory '/home/joshbakelaar/courses/3305/assignment-2'
+
+Assignment 2
+----------------------------
+
+Your integers are 01 02
+Parent (PID 18063): created child (PID 18064)
+
+###
+# Calculating X
+###
+Parent (PID 18063): Sending 0 to child
+Parent (PID 18063): Sending 0 to child
+	Child (PID 18064): Received 0 from parent
+	Child (PID 18064): Received 0 from parent
+	Child (PID 18064): Sending 0 to parent
+Parent (PID 18063): Received 0 from child
+
+###
+# Calculating Y
+###
+Parent (PID 18063): Sending 0 to child
+Parent (PID 18063): Sending 2 to child
+	Child (PID 18064): Received 0 from parent
+	Child (PID 18064): Received 2 from parent
+	Child (PID 18064): Sending 0 to parent
+Parent (PID 18063): Received 0 from child
+Parent (PID 18063): Sending 1 to child
+Parent (PID 18063): Sending 0 to child
+	Child (PID 18064): Received 1 from parent
+	Child (PID 18064): Received 0 from parent
+	Child (PID 18064): Sending 0 to parent
+Parent (PID 18063): Received 0 from child
+
+###
+# Calculating Z
+###
+Parent (PID 18063): Sending 1 to child
+Parent (PID 18063): Sending 2 to child
+	Child (PID 18064): Received 1 from parent
+	Child (PID 18064): Received 2 from parent
+	Child (PID 18064): Sending 2 to parent
+Parent (PID 18063): Received 2 from child
+
+01*02 == 0 + 0 + 2 == 2
+
+Your integers are 1234 5678
+Parent (PID 18065): created child (PID 18066)
+
+###
+# Calculating X
+###
+Parent (PID 18065): Sending 12 to child
+Parent (PID 18065): Sending 56 to child
+	Child (PID 18066): Received 12 from parent
+	Child (PID 18066): Received 56 from parent
+	Child (PID 18066): Sending 672 to parent
+Parent (PID 18065): Received 672 from child
+
+###
+# Calculating Y
+###
+Parent (PID 18065): Sending 12 to child
+Parent (PID 18065): Sending 78 to child
+	Child (PID 18066): Received 12 from parent
+	Child (PID 18066): Received 78 from parent
+	Child (PID 18066): Sending 936 to parent
+Parent (PID 18065): Received 936 from child
+Parent (PID 18065): Sending 34 to child
+Parent (PID 18065): Sending 56 to child
+	Child (PID 18066): Received 34 from parent
+	Child (PID 18066): Received 56 from parent
+	Child (PID 18066): Sending 1904 to parent
+Parent (PID 18065): Received 1904 from child
+
+###
+# Calculating Z
+###
+Parent (PID 18065): Sending 34 to child
+Parent (PID 18065): Sending 78 to child
+	Child (PID 18066): Received 34 from parent
+	Child (PID 18066): Received 78 from parent
+	Child (PID 18066): Sending 2652 to parent
+Parent (PID 18065): Received 2652 from child
+
+1234*5678 == 6720000 + 284000 + 2652 == 7006652
+
+Your integers are 1234 5678
+Parent (PID 18067): created child (PID 18068)
+
+###
+# Calculating X
+###
+Parent (PID 18067): Sending 12 to child
+Parent (PID 18067): Sending 56 to child
+	Child (PID 18068): Received 12 from parent
+	Child (PID 18068): Received 56 from parent
+	Child (PID 18068): Sending 672 to parent
+Parent (PID 18067): Received 672 from child
+
+###
+# Calculating Y
+###
+Parent (PID 18067): Sending 12 to child
+Parent (PID 18067): Sending 78 to child
+	Child (PID 18068): Received 12 from parent
+	Child (PID 18068): Received 78 from parent
+	Child (PID 18068): Sending 936 to parent
+Parent (PID 18067): Received 936 from child
+Parent (PID 18067): Sending 34 to child
+Parent (PID 18067): Sending 56 to child
+	Child (PID 18068): Received 34 from parent
+	Child (PID 18068): Received 56 from parent
+	Child (PID 18068): Sending 1904 to parent
+Parent (PID 18067): Received 1904 from child
+
+###
+# Calculating Z
+###
+Parent (PID 18067): Sending 34 to child
+Parent (PID 18067): Sending 78 to child
+	Child (PID 18068): Received 34 from parent
+	Child (PID 18068): Received 78 from parent
+	Child (PID 18068): Sending 2652 to parent
+Parent (PID 18067): Received 2652 from child
+
+1234*5678 == 6720000 + 284000 + 2652 == 7006652
+
+Your integers are 9999 9999
+Parent (PID 18069): created child (PID 18070)
+
+###
+# Calculating X
+###
+Parent (PID 18069): Sending 99 to child
+Parent (PID 18069): Sending 99 to child
+	Child (PID 18070): Received 99 from parent
+	Child (PID 18070): Received 99 from parent
+	Child (PID 18070): Sending 9801 to parent
+Parent (PID 18069): Received 9801 from child
+
+###
+# Calculating Y
+###
+Parent (PID 18069): Sending 99 to child
+Parent (PID 18069): Sending 99 to child
+	Child (PID 18070): Received 99 from parent
+	Child (PID 18070): Received 99 from parent
+	Child (PID 18070): Sending 9801 to parent
+Parent (PID 18069): Received 9801 from child
+Parent (PID 18069): Sending 99 to child
+Parent (PID 18069): Sending 99 to child
+	Child (PID 18070): Received 99 from parent
+	Child (PID 18070): Received 99 from parent
+	Child (PID 18070): Sending 9801 to parent
+Parent (PID 18069): Received 9801 from child
+
+###
+# Calculating Z
+###
+Parent (PID 18069): Sending 99 to child
+Parent (PID 18069): Sending 99 to child
+	Child (PID 18070): Received 99 from parent
+	Child (PID 18070): Received 99 from parent
+	Child (PID 18070): Sending 9801 to parent
+Parent (PID 18069): Received 9801 from child
+
+9999*9999 == 98010000 + 1960200 + 9801 == 99980001
+
+Your integers are 100 100
+Parent (PID 18071): created child (PID 18072)
+
+###
+# Calculating X
+###
+Parent (PID 18071): Sending 10 to child
+Parent (PID 18071): Sending 10 to child
+	Child (PID 18072): Received 10 from parent
+	Child (PID 18072): Received 10 from parent
+	Child (PID 18072): Sending 100 to parent
+Parent (PID 18071): Received 100 from child
+
+###
+# Calculating Y
+###
+Parent (PID 18071): Sending 10 to child
+Parent (PID 18071): Sending 0 to child
+	Child (PID 18072): Received 10 from parent
+	Child (PID 18072): Received 0 from parent
+	Child (PID 18072): Sending 0 to parent
+Parent (PID 18071): Received 0 from child
+Parent (PID 18071): Sending 0 to child
+Parent (PID 18071): Sending 10 to child
+	Child (PID 18072): Received 0 from parent
+	Child (PID 18072): Received 10 from parent
+	Child (PID 18072): Sending 0 to parent
+Parent (PID 18071): Received 0 from child
+
+###
+# Calculating Z
+###
+Parent (PID 18071): Sending 0 to child
+Parent (PID 18071): Sending 0 to child
+	Child (PID 18072): Received 0 from parent
+	Child (PID 18072): Received 0 from parent
+	Child (PID 18072): Sending 0 to parent
+Parent (PID 18071): Received 0 from child
+
+100*100 == 1000000 + 0 + 0 == 1000000
+
+Cleaning environment
+----------------------------
+rm -f assignment-2
+
+ASSIGNMENT 2 COMPLETED - Tue Feb 14 15:23:01 EST 2023
+
+Script done on 2023-02-14 15:23:01-05:00 [COMMAND_EXIT_CODE="0"]

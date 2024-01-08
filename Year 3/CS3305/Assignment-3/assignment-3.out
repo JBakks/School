@@ -1,0 +1,289 @@
+Script started on 2023-03-06 14:45:06-05:00 [TERM="xterm-256color" TTY="/dev/pts/44" COLUMNS="120" LINES="30"]
+]0;jbakela@compute:~/courses/CS3305/Assignment-3[?2004h[jbakela@compute Assignment-3]$ exit./run-assignment.sh 3
+[?2004l[H[2J[3J
+ASSIGNMENT 3 STARTED - Mon Mar  6 02:45:08 PM EST 2023
+
+Cleaning environment
+----------------------------
+rm -f assignment-3
+
+Checking environment
+----------------------------
+4b02c9d49c0df28c2b349926e435fb10  ./run-assignment.sh
+c6603033cf60da348e9436445a345fe7  assignment-3.c
+Makefile: OK
+
+Building environment
+----------------------------
+make all
+make[1]: Entering directory '/home/jbakela/courses/CS3305/Assignment-3'
+gcc -o assignment-3 assignment-3.c -Wall -Wpedantic -Wextra -std=gnu17
+make[1]: Leaving directory '/home/jbakela/courses/CS3305/Assignment-3'
+
+Assignment 3
+----------------------------
+Proper usage is ./assignment-3 <threadCount> <highestInt>
+Proper usage is ./assignment-3 <threadCount> <highestInt>
+Proper usage is ./assignment-3 <threadCount> <highestInt>
+Thread # 0 is finding primes from low = 0 to high = 100
+Sum of thread 0 is 1060, Count is 25
+
+	GRAND SUM IS = 1060, COUNT IS 25
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+Thread # 1 is finding primes from low = 21 to high = 42
+Sum of thread 1 is 161, Count is 5
+Thread # 0 is finding primes from low = 0 to high = 21
+Sum of thread 0 is 77, Count is 8
+Thread # 3 is finding primes from low = 63 to high = 84
+Sum of thread 3 is 373, Count is 5
+Thread # 2 is finding primes from low = 42 to high = 63
+Sum of thread 2 is 263, Count is 5
+Thread # 4 is finding primes from low = 84 to high = 100
+Sum of thread 4 is 186, Count is 2
+
+	GRAND SUM IS = 1060, COUNT IS 25
+
+real	0m0.004s
+user	0m0.000s
+sys	0m0.001s
+Thread # 0 is finding primes from low = 0 to high = 1000
+Sum of thread 0 is 76127, Count is 168
+
+	GRAND SUM IS = 76127, COUNT IS 168
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+Thread # 6 is finding primes from low = 126 to high = 147
+Sum of thread 6 is 534, Count is 4
+Thread # 2 is finding primes from low = 42 to high = 63
+Sum of thread 2 is 263, Count is 5
+Thread # 7 is finding primes from low = 147 to high = 168
+Sum of thread 7 is 787, Count is 5
+Thread # 1 is finding primes from low = 21 to high = 42
+Sum of thread 1 is 161, Count is 5
+Thread # 9 is finding primes from low = 189 to high = 210
+Sum of thread 9 is 780, Count is 4
+Thread # 0 is finding primes from low = 0 to high = 21
+Sum of thread 0 is 77, Count is 8
+Thread # 10 is finding primes from low = 210 to high = 231
+Sum of thread 10 is 890, Count is 4
+Thread # 3 is finding primes from low = 63 to high = 84
+Sum of thread 3 is 373, Count is 5
+Thread # 5 is finding primes from low = 105 to high = 126
+Sum of thread 5 is 329, Count is 3
+Thread # 8 is finding primes from low = 168 to high = 189
+Sum of thread 8 is 533, Count is 3
+Thread # 4 is finding primes from low = 84 to high = 105
+Sum of thread 4 is 390, Count is 4
+Thread # 21 is finding primes from low = 441 to high = 462
+Sum of thread 21 is 1810, Count is 4
+Thread # 20 is finding primes from low = 420 to high = 441
+Sum of thread 20 is 1724, Count is 4
+Thread # 19 is finding primes from low = 399 to high = 420
+Sum of thread 19 is 1229, Count is 3
+Thread # 48 is finding primes from low = 1008 to high = 1000
+Sum of thread 48 is 0, Count is 0
+Thread # 23 is finding primes from low = 483 to high = 504
+Sum of thread 23 is 1980, Count is 4
+Thread # 13 is finding primes from low = 273 to high = 294
+Sum of thread 13 is 1134, Count is 4
+Thread # 24 is finding primes from low = 504 to high = 525
+Sum of thread 24 is 1553, Count is 3
+Thread # 14 is finding primes from low = 294 to high = 315
+Sum of thread 14 is 931, Count is 3
+Thread # 25 is finding primes from low = 525 to high = 546
+Sum of thread 25 is 541, Count is 1
+Thread # 17 is finding primes from low = 357 to high = 378
+Sum of thread 17 is 1099, Count is 3
+Thread # 26 is finding primes from low = 546 to high = 567
+Sum of thread 26 is 1667, Count is 3
+Thread # 28 is finding primes from low = 588 to high = 609
+Sum of thread 28 is 2400, Count is 4
+Thread # 30 is finding primes from low = 630 to high = 651
+Sum of thread 30 is 2562, Count is 4
+Thread # 32 is finding primes from low = 672 to high = 693
+Sum of thread 32 is 2724, Count is 4
+Thread # 34 is finding primes from low = 714 to high = 735
+Sum of thread 34 is 2179, Count is 3
+Thread # 36 is finding primes from low = 756 to high = 777
+Sum of thread 36 is 3060, Count is 4
+Thread # 38 is finding primes from low = 798 to high = 819
+Sum of thread 38 is 1620, Count is 2
+Thread # 40 is finding primes from low = 840 to high = 861
+Sum of thread 40 is 2569, Count is 3
+Thread # 42 is finding primes from low = 882 to high = 903
+Sum of thread 42 is 1770, Count is 2
+Thread # 44 is finding primes from low = 924 to high = 945
+Sum of thread 44 is 2807, Count is 3
+Thread # 45 is finding primes from low = 945 to high = 966
+Sum of thread 45 is 1900, Count is 2
+Thread # 46 is finding primes from low = 966 to high = 987
+Sum of thread 46 is 3898, Count is 4
+Thread # 12 is finding primes from low = 252 to high = 273
+Thread # 22 is finding primes from low = 462 to high = 483
+Sum of thread 22 is 1409, Count is 3
+Thread # 18 is finding primes from low = 378 to high = 399
+Sum of thread 18 is 1548, Count is 4
+Thread # 16 is finding primes from low = 336 to high = 357
+Sum of thread 16 is 1386, Count is 4
+Thread # 49 is finding primes from low = 1029 to high = 1000
+Thread # 27 is finding primes from low = 567 to high = 588
+Thread # 31 is finding primes from low = 651 to high = 672
+Sum of thread 31 is 1973, Count is 3
+Thread # 33 is finding primes from low = 693 to high = 714
+Sum of thread 33 is 1410, Count is 2
+Thread # 35 is finding primes from low = 735 to high = 756
+Sum of thread 35 is 2233, Count is 3
+Thread # 39 is finding primes from low = 819 to high = 840
+Sum of thread 39 is 4139, Count is 5
+Thread # 43 is finding primes from low = 903 to high = 924
+Sum of thread 43 is 2737, Count is 3
+Thread # 47 is finding primes from low = 987 to high = 1000
+Sum of thread 47 is 1988, Count is 2
+Thread # 11 is finding primes from low = 231 to high = 252
+Sum of thread 11 is 964, Count is 4
+Thread # 15 is finding primes from low = 315 to high = 336
+Sum of thread 15 is 648, Count is 2
+Sum of thread 49 is 0, Count is 0
+Thread # 29 is finding primes from low = 609 to high = 630
+Sum of thread 29 is 1849, Count is 3
+Sum of thread 27 is 2304, Count is 4
+Thread # 41 is finding primes from low = 861 to high = 882
+Sum of thread 41 is 2621, Count is 3
+Sum of thread 12 is 1060, Count is 4
+Thread # 37 is finding primes from low = 777 to high = 798
+Sum of thread 37 is 1584, Count is 2
+
+	GRAND SUM IS = 76127, COUNT IS 168
+
+real	0m0.020s
+user	0m0.005s
+sys	0m0.000s
+Thread # 0 is finding primes from low = 0 to high = 1000000
+Sum of thread 0 is 37550402023, Count is 78498
+
+	GRAND SUM IS = 37550402023, COUNT IS 78498
+
+real	0m0.210s
+user	0m0.199s
+sys	0m0.002s
+Thread # 2 is finding primes from low = 40002 to high = 60003
+Thread # 7 is finding primes from low = 140007 to high = 160008
+Thread # 11 is finding primes from low = 220011 to high = 240012
+Sum of thread 2 is 92678072, Count is 1854
+Thread # 31 is finding primes from low = 620031 to high = 640032
+Thread # 4 is finding primes from low = 80004 to high = 100005
+Thread # 6 is finding primes from low = 120006 to high = 140007
+Sum of thread 4 is 158008332, Count is 1756
+Sum of thread 6 is 222120929, Count is 1709
+Thread # 1 is finding primes from low = 20001 to high = 40002
+Sum of thread 7 is 251069546, Count is 1674
+Sum of thread 1 is 57999475, Count is 1941
+Thread # 0 is finding primes from low = 0 to high = 20001
+Thread # 3 is finding primes from low = 60003 to high = 80004
+Thread # 5 is finding primes from low = 100005 to high = 120006
+Sum of thread 0 is 21171191, Count is 2262
+Thread # 15 is finding primes from low = 300015 to high = 320016
+Thread # 16 is finding primes from low = 320016 to high = 340017
+Thread # 17 is finding primes from low = 340017 to high = 360018
+Thread # 18 is finding primes from low = 360018 to high = 380019
+Thread # 19 is finding primes from low = 380019 to high = 400020
+Thread # 20 is finding primes from low = 400020 to high = 420021
+Thread # 22 is finding primes from low = 440022 to high = 460023
+Thread # 23 is finding primes from low = 460023 to high = 480024
+Thread # 24 is finding primes from low = 480024 to high = 500025
+Thread # 25 is finding primes from low = 500025 to high = 520026
+Thread # 26 is finding primes from low = 520026 to high = 540027
+Thread # 27 is finding primes from low = 540027 to high = 560028
+Thread # 28 is finding primes from low = 560028 to high = 580029
+Thread # 29 is finding primes from low = 580029 to high = 600030
+Thread # 30 is finding primes from low = 600030 to high = 620031
+Thread # 37 is finding primes from low = 740037 to high = 760038
+Thread # 38 is finding primes from low = 760038 to high = 780039
+Thread # 39 is finding primes from low = 780039 to high = 800040
+Thread # 40 is finding primes from low = 800040 to high = 820041
+Thread # 41 is finding primes from low = 820041 to high = 840042
+Thread # 42 is finding primes from low = 840042 to high = 860043
+Thread # 43 is finding primes from low = 860043 to high = 880044
+Thread # 44 is finding primes from low = 880044 to high = 900045
+Thread # 45 is finding primes from low = 900045 to high = 920046
+Thread # 46 is finding primes from low = 920046 to high = 940047
+Thread # 47 is finding primes from low = 940047 to high = 960048
+Thread # 48 is finding primes from low = 960048 to high = 980049
+Thread # 49 is finding primes from low = 980049 to high = 1000000
+Thread # 21 is finding primes from low = 420021 to high = 440022
+Thread # 32 is finding primes from low = 640032 to high = 660033
+Sum of thread 3 is 124639470, Count is 1780
+Thread # 33 is finding primes from low = 660033 to high = 680034
+Thread # 34 is finding primes from low = 680034 to high = 700035
+Sum of thread 33 is 1003721486, Count is 1498
+Thread # 8 is finding primes from low = 160008 to high = 180009
+Thread # 14 is finding primes from low = 280014 to high = 300015
+Sum of thread 11 is 368845362, Count is 1604
+Thread # 13 is finding primes from low = 260013 to high = 280014
+Sum of thread 15 is 499792028, Count is 1612
+Thread # 9 is finding primes from low = 180009 to high = 200010
+Sum of thread 8 is 282404880, Count is 1660
+Thread # 36 is finding primes from low = 720036 to high = 740037
+Thread # 12 is finding primes from low = 240012 to high = 260013
+Sum of thread 14 is 453119427, Count is 1563
+Sum of thread 22 is 682460971, Count is 1517
+Thread # 10 is finding primes from low = 200010 to high = 220011
+Sum of thread 18 is 570641058, Count is 1542
+Sum of thread 23 is 728625130, Count is 1550
+Sum of thread 16 is 518976563, Count is 1573
+Sum of thread 20 is 627548260, Count is 1530
+Sum of thread 12 is 404175189, Count is 1617
+Sum of thread 5 is 187864652, Count is 1708
+Sum of thread 24 is 749836922, Count is 1530
+Sum of thread 13 is 430647209, Count is 1595
+Thread # 35 is finding primes from low = 700035 to high = 720036
+Sum of thread 48 is 1404404418, Count is 1448
+Sum of thread 21 is 666963381, Count is 1551
+Sum of thread 39 is 1171583069, Count is 1483
+Sum of thread 45 is 1327703669, Count is 1459
+Sum of thread 38 is 1147970567, Count is 1491
+Sum of thread 37 is 1083986615, Count is 1445
+Sum of thread 43 is 1291082978, Count is 1484
+Sum of thread 41 is 1223244122, Count is 1474
+Sum of thread 49 is 1414787935, Count is 1429
+Sum of thread 47 is 1358433698, Count is 1430
+Sum of thread 32 is 967907693, Count is 1489
+Sum of thread 26 is 799671747, Count is 1509
+Sum of thread 27 is 826111902, Count is 1502
+Sum of thread 46 is 1352139974, Count is 1454
+Sum of thread 44 is 1289576647, Count is 1449
+Sum of thread 30 is 924158161, Count is 1515
+Sum of thread 29 is 890855270, Count is 1510
+Sum of thread 25 is 777401040, Count is 1524
+Sum of thread 31 is 922322756, Count is 1464
+Sum of thread 42 is 1235922962, Count is 1454
+Sum of thread 19 is 608915629, Count is 1561
+Sum of thread 28 is 863650193, Count is 1515
+Sum of thread 17 is 551169141, Count is 1575
+Sum of thread 40 is 1185842142, Count is 1464
+Sum of thread 10 is 343019109, Count is 1633
+Sum of thread 36 is 1096446256, Count is 1502
+Sum of thread 34 is 1021149888, Count is 1480
+Sum of thread 9 is 312044278, Count is 1642
+Sum of thread 35 is 1055590631, Count is 1487
+
+	GRAND SUM IS = 37550402023, COUNT IS 78498
+
+real	0m0.160s
+user	0m0.198s
+sys	0m0.005s
+
+Cleaning environment
+----------------------------
+rm -f assignment-3
+
+ASSIGNMENT 3 COMPLETED - Mon Mar  6 02:45:33 PM EST 2023
+]0;jbakela@compute:~/courses/CS3305/Assignment-3[?2004h[jbakela@compute Assignment-3]$ w[Kexit
+[?2004lexit
+
+Script done on 2023-03-06 14:45:47-05:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,17 @@
+Script started on 2023-02-02 22:52:20-05:00 [TERM="xterm-256color" TTY="/dev/pts/89" COLUMNS="142" LINES="36"]
+]0;jbakela@compute:~/courses/CS3340[?2004h[jbakela@compute CS3340]$ exit~/courses/CS3340/asn1_a
+[?2004lF(0) = 0
+F(5) = 5
+F(10) = 55
+F(15) = 610
+F(20) = 6765
+F(25) = 75025
+F(30) = 832040
+F(35) = 9227465
+F(40) = 102334155
+F(45) = 1134903170
+F(50) = 12586269025
+]0;jbakela@compute:~/courses/CS3340[?2004h[jbakela@compute CS3340]$ exit
+[?2004lexit
+
+Script done on 2023-02-02 22:54:12-05:00 [COMMAND_EXIT_CODE="0"]

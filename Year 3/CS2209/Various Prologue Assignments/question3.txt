@@ -1,0 +1,20 @@
+% Question 3
+% Josh Bakelaar (251139121)
+% part a, true if the last letter matches the quarried letter
+last(X,[X|[]]).
+last(X,[_|T]) :-
+    last(X,T).
+
+% part b, true if elements X and Y are adjacent is the list Z
+adjacent(X,Y,Z):-
+    append(_,[X,Y|_], Z).
+
+% part c, palindrome is a list that reads the same is both directions.
+reverse([],[]).
+reverse(X,Rev) :- append(X1, [T], X),
+    reverse(X1,Rev1),
+    append([T],Rev1,Rev).
+
+palindrome(X) :-
+    reverse(X,X1),
+    X1=X.

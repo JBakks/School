@@ -1,0 +1,48 @@
+% Question 2
+% Josh Bakelaar (251139121)
+% All cities
+city(toronto).
+city(chicago).
+city(detroit).
+city(orlando).
+city(hamilton).
+city(losangelos).
+
+% Airports
+airport(toronto,pearson).
+airport(toronto,billybishop).
+airport(chicago,ohare).
+airport(chicago,midway). 
+airport(detroit,metro).
+airport(orlando,international).
+airport(orlando,sanford).
+
+% WW2 heros
+hero(ohare).
+hero(murphy).
+hero(khan).
+hero(york).
+hero(daly).
+hero(mccampbell).
+hero(doss).
+hero(pearson).
+
+% Battles 
+battle(midway).
+battle(berlin).
+battle(bulge).
+battle(kursl).
+battle(pearl).
+battle(stalingrad).
+
+% C = City, check to see if airport is named after a hero 
+is_named_after_hero(C):-airport(C,N),hero(N).
+% C = City, check to see if airport is named after a battle
+is_named_after_battle(C):-airport(C,N),battle(N).
+
+% C = City, check to see if city has an airport named after a hero and a battle
+final_question(C):-is_named_after_hero(C),is_named_after_battle(C).
+
+
+
+

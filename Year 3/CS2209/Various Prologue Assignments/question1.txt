@@ -1,0 +1,70 @@
+% Question 1
+% Josh Bakelaar (251139121)
+% Men
+man(john1).
+man(peter).
+man(rob).
+man(george).
+man(john2).
+man(jay).
+
+% Women
+woman(sue).
+woman(ida).
+woman(estelle).
+woman(grace).
+woman(mary).
+
+% Married couples
+spouse(sue, john).
+spouse(john, sue).
+spouse(ida, peter).
+spouse(peter, ida).
+spouse(estelle, george).
+spouse(george, estelle).
+
+% Parents
+parent(sue, rob).
+parent(sue, estelle).
+parent(john1, rob).
+parent(john1, estelle).
+parent(ida, george).
+parent(ida, grace).
+parent(peter, george).
+parent(peter, grace).
+parent(estelle, john2).
+parent(estelle, mary).
+parent(estelle, jay).
+parent(george, john2).
+parent(george, mary).
+parent(george, jay).
+
+% G = Grandfather, C = Child, P = Parent of child, Child of grandfather
+grandfather(G,C):-parent(G,P),parent(P,C),man(G).
+
+% G = Grandparent, C = Child, P = Parent of child/child of grandparent
+grandparent(G,C):-parent(G,P),parent(P,C).
+
+% D = Descendent, C = Child
+descendent(D,C):-parent(C,D).
+% D = Descendent, C = Child, P = Parent of descendent
+descendent(D,C):-parent(P,D),descendent(P,C).
+% A = Ancestor, D = Descendent
+ancestor(A,D):-descendent(D,A).
+
+% A = Child1, B = Child2, A\=B siblings are different people
+siblings(A,B):-parent(P,A),parent(P,B),A\=B.
+% U = Uncle, C = Child, P = Parent of child/brother of parent
+uncle(U,C):-siblings(U,P),parent(P,C),man(U).
+
+% M = Mother in law, S = Spouse of son/daughter of mother in law. C = Child of mother in law
+mother_in_law(M,S):-spouse(S,C),parent(M,C),woman(M).
+
+% A = Child, B = Brother of child
+brother(A,B):-siblings(A,B),man(B).
+
+% A = Child, B = brother.
+a_pair_of_brother(A):-brother(A,_),man(A).
+
+
+

@@ -1,0 +1,82 @@
+Script started on 2022-02-09 12:25:13-05:00 [TERM="xterm-256color" TTY="/dev/pts/6" COLUMNS="237" LINES="63"]
+]0;jbakela@compute:~/Tmp/CS2211/Assignments/Assignment2[?2004h[jbakela@compute Assignment2]$ ./intToEnglish
+[?2004lPlease enter a value (1-999, 0 to quit): 1
+You entered the number one
+Please enter a value (1-999, 0 to quit): 6
+You entered the number six
+Please enter a value (1-999, 0 to quit): 10
+You entered the number ten
+Please enter a value (1-999, 0 to quit): 24  123  3
+You entered the number thirteen
+Please enter a value (1-999, 0 to quit): 17
+You entered the number seventeen
+Please enter a value (1-999, 0 to quit): 20
+You entered the number twenty
+Please enter a value (1-999, 0 to quit): 2 88
+You entered the number eighty-eight
+Please enter a value (1-999, 0 to quit): 294
+You entered the number two hundred and forty-four
+Please enter a value (1-999, 0 to quit): 209
+You entered the number two hundred and nine
+Please enter a value (1-999, 0 to quit): 999
+You entered the number nine hundred and ninety-nine
+Please enter a value (1-999, 0 to quit): 0
+]0;jbakela@compute:~/Tmp/CS2211/Assignments/Assignment2[?2004h[jbakela@compute Assignment2]$ /[Krm [K[K[Kls
+[?2004l[0m[01;32mconverter[0m  converter.c  converter.script  [01;32mintToEnglish[0m  intToEnglish.c  intToEnglish.script
+]0;jbakela@compute:~/Tmp/CS2211/Assignments/Assignment2[?2004h[jbakela@compute Assignment2]$ rm converter
+[?2004l]0;jbakela@compute:~/Tmp/CS2211/Assignments/Assignment2[?2004h[jbakela@compute Assignment2]$ rm intToEnglish
+[?2004l]0;jbakela@compute:~/Tmp/CS2211/Assignments/Assignment2[?2004h[jbakela@compute Assignment2]$ ls
+[?2004lconverter.c  converter.script  intToEnglish.c  intToEnglish.script
+]0;jbakela@compute:~/Tmp/CS2211/Assignments/Assignment2[?2004h[jbakela@compute Assignment2]$ cd -
+[?2004l/home/jbakela/Tmp/CS2211/Assignments
+]0;jbakela@compute:~/Tmp/CS2211/Assignments[?2004h[jbakela@compute Assignments]$ tar 0[K-cs[Kzvf As[K[K2511391210[K-Assignment2.tar Assignment2
+[?2004lAssignment2/
+Assignment2/intToEnglish.c
+Assignment2/intToEnglish.script
+Assignment2/.nfs0000000001914424000001c1
+Assignment2/converter.c
+Assignment2/.nfs00000000019143cf000001c0
+Assignment2/converter.script
+]0;jbakela@compute:~/Tmp/CS2211/Assignments[?2004h[jbakela@compute Assignments]$ ls
+[?2004l[0m[01;31m251139121-Assignment2.tar[0m  [01;34mAssignment2[0m
+]0;jbakela@compute:~/Tmp/CS2211/Assignments[?2004h[jbakela@compute Assignments]$ lstar -czvf 251139121-Assignment2.tar Assignment2[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd Assignment2
+[?2004l]0;jbakela@compute:~/Tmp/CS2211/Assignments/Assignment2[?2004h[jbakela@compute Assignment2]$ cd Assignment2ls[Ktar -czvf 251139121-Assignment2.tar Assignment2[K[K[K[K[K[K[K[K[K[K[K[K
+[?2004ltar: Cowardly refusing to create an empty archive
+Try 'tar --help' or 'tar --usage' for more information.
+]0;jbakela@compute:~/Tmp/CS2211/Assignments/Assignment2[?2004h[jbakela@compute Assignment2]$ tar -czvf 251139121-Assignment2.tar Assignment2
+[?2004ltar: Assignment2: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+]0;jbakela@compute:~/Tmp/CS2211/Assignments/Assignment2[?2004h[jbakela@compute Assignment2]$ tar -czvf 251139121-Assignment2.tar Assignment2[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd -
+[?2004l/home/jbakela/Tmp/CS2211/Assignments
+]0;jbakela@compute:~/Tmp/CS2211/Assignments[?2004h[jbakela@compute Assignments]$ cd -tar -czvf 251139121-Assignment2.tar Assignment2[K \a[K[K/Assingmen[K[K[K[K[Kgnmet[Knt2
+[?2004ltar: Removing leading `/' from member names
+tar: /Assignment2: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+]0;jbakela@compute:~/Tmp/CS2211/Assignments[?2004h[jbakela@compute Assignments]$ tar -czvf 251139121-Assignment2.tar /Assignment2~/Assignment2!/Assignment2[1P/Assignment2[C/Assignment2h/Assignment2o/Assignment2m/Assignment2e/Assignment2[C/Assignment2T/Assignment2m/Assignment2p/Assignment2[C/Assignment2C/Assignment2s/Assignment2[1P/Assignment2S/Assignment22/Assignment22/Assignment21/Assignment21/Assignment2[C/Assignment2A/Assignment2s/Assignment2s/Assignment2i/Assignment2n/Assignment2[1P/Assignment2g/Assignment2n/Assignment2m/Assignment2e/Assignment2n/Assignment2t/Assignment2s/Assignment2
+[?2004ltar: Removing leading `/' from member names
+tar: /home/jbakela/home/Tmp/CS2211/Assignments/Assignment2: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+]0;jbakela@compute:~/Tmp/CS2211/Assignments[?2004h[jbakela@compute Assignments]$ tar -czvf 251139121-Assignment2.tar ~/home/Tmp/CS2211/Assignments/Assignment2[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kr Assingm[K[K[Kgnment2.*
+[?2004ltar: Assignment2.*: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+]0;jbakela@compute:~/Tmp/CS2211/Assignments[?2004h[jbakela@compute Assignments]$ tar -czvf 251139121-Assignment2.tar Assignment2.*[K[K[K2\[K/([K*
+[?2004lAssignment2/251139121-Assignment2.tar
+Assignment2/converter.c
+Assignment2/converter.script
+Assignment2/intToEnglish.c
+Assignment2/intToEnglish.script
+]0;jbakela@compute:~/Tmp/CS2211/Assignments[?2004h[jbakela@compute Assignments]$ cd Assignment2
+[?2004l]0;jbakela@compute:~/Tmp/CS2211/Assignments/Assignment2[?2004h[jbakela@compute Assignment2]$ tar -cv[Kzvf Assign[K[K[K[K[K[K251139121-aS[K[KAssignb[Kment2.tar cov[Knverter.c converter.script intTo[KoEnligh.c[K[K[K[Ksh[K[K[K[Kglish.c intTT[KoEnglish.script
+[?2004lconverter.c
+converter.script
+intToEnglish.c
+intToEnglish.script
+]0;jbakela@compute:~/Tmp/CS2211/Assignments/Assignment2[?2004h[jbakela@compute Assignment2]$ tar -czvf 251139121-Assignment2.tar converter.c converter.script intToEnglish.c intToEnglish.script[1@.[1@g[1@z
+[?2004lconverter.c
+converter.script
+intToEnglish.c
+intToEnglish.script
+]0;jbakela@compute:~/Tmp/CS2211/Assignments/Assignment2[?2004h[jbakela@compute Assignment2]$ [?2004l
+exit
+
+Script done on 2022-02-09 12:36:16-05:00 [COMMAND_EXIT_CODE="0"]

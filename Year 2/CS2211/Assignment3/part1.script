@@ -1,0 +1,32 @@
+Script started on 2022-03-02 21:55:42-05:00 [TERM="xterm-256color" TTY="/dev/pts/16" COLUMNS="120" LINES="30"]
+]0;jbakela@compute:~/Tmp/CS2211/Assignments/Assignment3[?2004h[jbakela@compute Assignment3]$ vi lab06gcc lab06.c -o lab0[26@-Wall -fno-stack-protecor [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6@Wall -[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pvi lab06[Kvi lab06gcc lab06.c -o lab0[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K./lab[K[K[Kpart1
+[?2004lWhat would you like the size of the array to be?: 5
+Enter 5 integers seperated by spaces: 10 99 1 31423 55
+
+Part 1: 
+    Your array is: 10 99 1 31423 55 
+    Your array has 5 elements.
+    The size of the array is 20 bytes.
+
+Part 2: 
+    Your array in reverse is: 55 31423 1 99 10 
+
+Part 3: 
+    The smallest value in your array is: 1
+
+Part 4: 
+    The sum of all values in your array is: 31588
+
+Part 5: 
+    Your array with first and last element switched is: 55 99 1 31423 10 
+
+Part 6: 
+    Your array in sorted order is: 1 10 55 99 31423 
+]0;jbakela@compute:~/Tmp/CS2211/Assignments/Assignment3[?2004h[jbakela@compute Assignment3]$ whoami
+[?2004ljbakela
+]0;jbakela@compute:~/Tmp/CS2211/Assignments/Assignment3[?2004h[jbakela@compute Assignment3]$ date
+[?2004lWed Mar  2 09:56:13 PM EST 2022
+]0;jbakela@compute:~/Tmp/CS2211/Assignments/Assignment3[?2004h[jbakela@compute Assignment3]$ exit
+[?2004lexit
+
+Script done on 2022-03-02 21:56:28-05:00 [COMMAND_EXIT_CODE="0"]

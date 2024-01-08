@@ -1,0 +1,320 @@
+Script started on 2023-04-05 23:20:04-04:00 [TERM="xterm-256color" TTY="/dev/pts/157" COLUMNS="76" LINES="39"]
+]0;jbakela@compute:~/courses/CS3340/asn3[?2004h[jbakela@compute asn3]$ code .d Assignment-5[1P4ls[K[K[K./[K/asn3
+[?2004lDijkstra.java:56: warning: [unchecked] unchecked conversion
+	    this.adjacencyList = new LinkedList[numVertices];
+	                         ^
+  required: LinkedList<Edge>[]
+  found:    LinkedList[]
+1 warning
+
+Vertex 0:
+edges: 0
+
+
+Vertex 1:
+edges: 6
+1->destination is: 19 with a weight: 66
+1->destination is: 24 with a weight: 48
+1->destination is: 8 with a weight: 20
+1->destination is: 9 with a weight: 47
+1->destination is: 18 with a weight: 41
+1->destination is: 20 with a weight: 63
+
+
+Vertex 2:
+edges: 9
+2->destination is: 12 with a weight: 78
+2->destination is: 22 with a weight: 32
+2->destination is: 17 with a weight: 19
+2->destination is: 16 with a weight: 17
+2->destination is: 14 with a weight: 14
+2->destination is: 1 with a weight: 73
+2->destination is: 3 with a weight: 51
+2->destination is: 21 with a weight: 30
+2->destination is: 13 with a weight: 39
+
+
+Vertex 3:
+edges: 7
+3->destination is: 22 with a weight: 57
+3->destination is: 17 with a weight: 62
+3->destination is: 13 with a weight: 40
+3->destination is: 10 with a weight: 46
+3->destination is: 11 with a weight: 74
+3->destination is: 7 with a weight: 70
+3->destination is: 12 with a weight: 47
+
+
+Vertex 4:
+edges: 8
+4->destination is: 25 with a weight: 16
+4->destination is: 18 with a weight: 30
+4->destination is: 8 with a weight: 70
+4->destination is: 14 with a weight: 1
+4->destination is: 13 with a weight: 60
+4->destination is: 23 with a weight: 68
+4->destination is: 1 with a weight: 5
+4->destination is: 20 with a weight: 13
+
+
+Vertex 5:
+edges: 10
+5->destination is: 4 with a weight: 19
+5->destination is: 21 with a weight: 71
+5->destination is: 12 with a weight: 70
+5->destination is: 15 with a weight: 23
+5->destination is: 6 with a weight: 39
+5->destination is: 20 with a weight: 69
+5->destination is: 11 with a weight: 76
+5->destination is: 8 with a weight: 41
+5->destination is: 25 with a weight: 0
+5->destination is: 23 with a weight: 8
+
+
+Vertex 6:
+edges: 8
+6->destination is: 10 with a weight: 42
+6->destination is: 21 with a weight: 23
+6->destination is: 16 with a weight: 73
+6->destination is: 5 with a weight: 48
+6->destination is: 12 with a weight: 65
+6->destination is: 25 with a weight: 73
+6->destination is: 9 with a weight: 44
+6->destination is: 24 with a weight: 54
+
+
+Vertex 7:
+edges: 6
+7->destination is: 14 with a weight: 33
+7->destination is: 20 with a weight: 58
+7->destination is: 4 with a weight: 58
+7->destination is: 9 with a weight: 58
+7->destination is: 16 with a weight: 37
+7->destination is: 22 with a weight: 39
+
+
+Vertex 8:
+edges: 9
+8->destination is: 20 with a weight: 24
+8->destination is: 18 with a weight: 14
+8->destination is: 9 with a weight: 18
+8->destination is: 6 with a weight: 46
+8->destination is: 19 with a weight: 20
+8->destination is: 5 with a weight: 54
+8->destination is: 17 with a weight: 0
+8->destination is: 25 with a weight: 46
+8->destination is: 14 with a weight: 57
+
+
+Vertex 9:
+edges: 6
+9->destination is: 16 with a weight: 71
+9->destination is: 22 with a weight: 27
+9->destination is: 5 with a weight: 8
+9->destination is: 14 with a weight: 46
+9->destination is: 17 with a weight: 70
+9->destination is: 18 with a weight: 11
+
+
+Vertex 10:
+edges: 9
+10->destination is: 7 with a weight: 28
+10->destination is: 17 with a weight: 48
+10->destination is: 19 with a weight: 29
+10->destination is: 9 with a weight: 74
+10->destination is: 21 with a weight: 54
+10->destination is: 8 with a weight: 26
+10->destination is: 23 with a weight: 65
+10->destination is: 5 with a weight: 51
+10->destination is: 18 with a weight: 69
+
+
+Vertex 11:
+edges: 6
+11->destination is: 1 with a weight: 62
+11->destination is: 8 with a weight: 34
+11->destination is: 15 with a weight: 44
+11->destination is: 10 with a weight: 57
+11->destination is: 21 with a weight: 31
+11->destination is: 7 with a weight: 32
+
+
+Vertex 12:
+edges: 6
+12->destination is: 6 with a weight: 15
+12->destination is: 18 with a weight: 7
+12->destination is: 20 with a weight: 55
+12->destination is: 13 with a weight: 63
+12->destination is: 3 with a weight: 47
+12->destination is: 22 with a weight: 39
+
+
+Vertex 13:
+edges: 5
+13->destination is: 24 with a weight: 5
+13->destination is: 11 with a weight: 35
+13->destination is: 6 with a weight: 44
+13->destination is: 10 with a weight: 61
+13->destination is: 21 with a weight: 57
+
+
+Vertex 14:
+edges: 6
+14->destination is: 8 with a weight: 72
+14->destination is: 19 with a weight: 53
+14->destination is: 4 with a weight: 46
+14->destination is: 2 with a weight: 5
+14->destination is: 24 with a weight: 39
+14->destination is: 22 with a weight: 49
+
+
+Vertex 15:
+edges: 9
+15->destination is: 21 with a weight: 46
+15->destination is: 19 with a weight: 4
+15->destination is: 7 with a weight: 52
+15->destination is: 6 with a weight: 66
+15->destination is: 2 with a weight: 44
+15->destination is: 5 with a weight: 13
+15->destination is: 16 with a weight: 60
+15->destination is: 14 with a weight: 47
+15->destination is: 17 with a weight: 23
+
+
+Vertex 16:
+edges: 9
+16->destination is: 15 with a weight: 51
+16->destination is: 9 with a weight: 55
+16->destination is: 2 with a weight: 33
+16->destination is: 25 with a weight: 27
+16->destination is: 5 with a weight: 38
+16->destination is: 14 with a weight: 49
+16->destination is: 6 with a weight: 56
+16->destination is: 12 with a weight: 11
+16->destination is: 21 with a weight: 24
+
+
+Vertex 17:
+edges: 11
+17->destination is: 7 with a weight: 42
+17->destination is: 2 with a weight: 19
+17->destination is: 21 with a weight: 10
+17->destination is: 14 with a weight: 73
+17->destination is: 23 with a weight: 15
+17->destination is: 15 with a weight: 17
+17->destination is: 22 with a weight: 14
+17->destination is: 8 with a weight: 70
+17->destination is: 13 with a weight: 77
+17->destination is: 25 with a weight: 51
+17->destination is: 11 with a weight: 49
+
+
+Vertex 18:
+edges: 6
+18->destination is: 15 with a weight: 0
+18->destination is: 17 with a weight: 51
+18->destination is: 3 with a weight: 1
+18->destination is: 6 with a weight: 37
+18->destination is: 21 with a weight: 55
+18->destination is: 5 with a weight: 49
+
+
+Vertex 19:
+edges: 6
+19->destination is: 9 with a weight: 59
+19->destination is: 4 with a weight: 48
+19->destination is: 3 with a weight: 10
+19->destination is: 8 with a weight: 59
+19->destination is: 12 with a weight: 35
+19->destination is: 2 with a weight: 76
+
+
+Vertex 20:
+edges: 8
+20->destination is: 13 with a weight: 12
+20->destination is: 25 with a weight: 26
+20->destination is: 17 with a weight: 29
+20->destination is: 6 with a weight: 26
+20->destination is: 24 with a weight: 73
+20->destination is: 21 with a weight: 12
+20->destination is: 8 with a weight: 26
+20->destination is: 23 with a weight: 20
+
+
+Vertex 21:
+edges: 4
+21->destination is: 13 with a weight: 26
+21->destination is: 9 with a weight: 18
+21->destination is: 6 with a weight: 54
+21->destination is: 17 with a weight: 2
+
+
+Vertex 22:
+edges: 6
+22->destination is: 17 with a weight: 32
+22->destination is: 19 with a weight: 50
+22->destination is: 3 with a weight: 7
+22->destination is: 6 with a weight: 63
+22->destination is: 11 with a weight: 73
+22->destination is: 24 with a weight: 75
+
+
+Vertex 23:
+edges: 9
+23->destination is: 25 with a weight: 14
+23->destination is: 4 with a weight: 79
+23->destination is: 6 with a weight: 48
+23->destination is: 16 with a weight: 66
+23->destination is: 20 with a weight: 55
+23->destination is: 13 with a weight: 17
+23->destination is: 12 with a weight: 13
+23->destination is: 9 with a weight: 54
+23->destination is: 22 with a weight: 39
+
+
+Vertex 24:
+edges: 6
+24->destination is: 14 with a weight: 6
+24->destination is: 12 with a weight: 26
+24->destination is: 6 with a weight: 74
+24->destination is: 15 with a weight: 52
+24->destination is: 22 with a weight: 66
+24->destination is: 5 with a weight: 38
+
+
+Vertex 25:
+edges: 5
+25->destination is: 17 with a weight: 39
+25->destination is: 12 with a weight: 30
+25->destination is: 19 with a weight: 72
+25->destination is: 2 with a weight: 5
+25->destination is: 24 with a weight: 54
+
+(17, 2) : 39
+(18, 3) : 35
+(5, 4) : 65
+(9, 5) : 46
+(12, 6) : 63
+(17, 7) : 62
+(1, 8) : 20
+(8, 9) : 38
+(3, 10) : 81
+(17, 11) : 69
+(23, 12) : 48
+(23, 13) : 52
+(2, 14) : 53
+(18, 15) : 34
+(2, 16) : 56
+(8, 17) : 20
+(8, 18) : 34
+(15, 19) : 38
+(8, 20) : 44
+(17, 21) : 30
+(17, 22) : 34
+(17, 23) : 35
+(1, 24) : 48
+(5, 25) : 46
+]0;jbakela@compute:~/courses/CS3340/asn3[?2004h[jbakela@compute asn3]$ exit
+[?2004lexit
+
+Script done on 2023-04-05 23:20:16-04:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,63 @@
+Script started on 2022-03-22 20:15:54-04:00 [TERM="xterm-256color" TTY="/dev/pts/13" COLUMNS="120" LINES="30"]
+]0;jbakela@compute:~/courses/CS2211/Assignments/Assignment4[?2004h[jbakela@compute Assignment4]$ ./lab08vi lab08.c[3P./lab08[K./lab08[K[K[K[K[K[K[K,[K,.[K[K./spoe[Krt_db
+[?2004l*************************
+* 2211 Winter Olympics! *
+*************************
+
+Enter operation code: p
+Event Code    Event Name                  Competitors                  Gender
+
+Enter operation code: i
+        Enter event code: 0
+        Enter event name: IO ce Hockey
+        Enter number of competitors: 12
+        Enter the gender: M
+
+Enter operation code: p
+Event Code    Event Name                  Competitors                  Gender
+0             Ice Hockey                  12                           M
+
+Enter operation code: i
+        Enter event code: 1
+        Enter event name: Single Figure Skating
+        Enter number of competitors: 32
+        Enter the gender: W
+
+Enter operation code: i
+        Enter event code: 3
+        Enter event name: Curling
+        Enter number of competitors: 16
+        Enter the gender: x X
+
+Enter operation code: i
+        Enter event code: 3
+Event code already exists. 
+
+Enter operation code: p
+Event Code    Event Name                  Competitors                  Gender
+0             Ice Hockey                  12                           M
+1             Single Figure Skating       32                           W
+3             Curling                     16                           X
+
+Enter operation code: s
+        Enter event code: 1
+Event Code    Event Name                  Competitors                  Gender
+1             Single Figure Skating       32                           W
+
+Enter operation code: u
+        Enter event code: 1
+        Enter event name: Sci  ingle Figure Skating
+        Enter number of competitors: 32 0
+        Enter the gender: W
+
+Enter operation code: p
+Event Code    Event Name                  Competitors                  Gender
+0             Ice Hockey                  12                           M
+1             Single Figure Skating       30                           W
+3             Curling                     16                           X
+
+Enter operation code: q
+]0;jbakela@compute:~/courses/CS2211/Assignments/Assignment4[?2004h[jbakela@compute Assignment4]$ exit
+[?2004lexit
+
+Script done on 2022-03-22 20:17:41-04:00 [COMMAND_EXIT_CODE="0"]

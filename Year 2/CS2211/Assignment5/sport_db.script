@@ -1,0 +1,296 @@
+Script started on 2022-04-06 16:42:43-04:00 [TERM="xterm-256color" TTY="/dev/pts/10" COLUMNS="120" LINES="30"]
+]0;jbakela@compute:~/courses/CS2211/Assignments/Assignment5[?2004h[jbakela@compute Assignment5]$ make
+[?2004lgcc -Wall -Wpedantic -Wextra -std=c99   -c -o sport_db.o sport_db.c
+[01m[Ksport_db.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Ksport_db.c:41:27:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Kinsert_event[m[K’ [[01;35m[K-Wimplicit-function-declaration[m[K]
+   41 |                 case 'i': [01;35m[Kinsert_event[m[K(&event_tbl);
+      |                           [01;35m[K^~~~~~~~~~~~[m[K
+[01m[Ksport_db.c:43:27:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Ksearch_event[m[K’ [[01;35m[K-Wimplicit-function-declaration[m[K]
+   43 |                 case 's': [01;35m[Ksearch_event[m[K(&event_tbl);
+      |                           [01;35m[K^~~~~~~~~~~~[m[K
+[01m[Ksport_db.c:45:27:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Kupdate_event[m[K’ [[01;35m[K-Wimplicit-function-declaration[m[K]
+   45 |                 case 'u': [01;35m[Kupdate_event[m[K(&event_tbl);
+      |                           [01;35m[K^~~~~~~~~~~~[m[K
+[01m[Ksport_db.c:47:27:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Kprint_event[m[K’ [[01;35m[K-Wimplicit-function-declaration[m[K]
+   47 |                 case 'p': [01;35m[Kprint_event[m[K(&event_tbl);
+      |                           [01;35m[K^~~~~~~~~~~[m[K
+[01m[Ksport_db.c:49:27:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Kdump_event[m[K’ [[01;35m[K-Wimplicit-function-declaration[m[K]
+   49 |                 case 'd': [01;35m[Kdump_event[m[K(&event_tbl);
+      |                           [01;35m[K^~~~~~~~~~[m[K
+[01m[Ksport_db.c:51:27:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Krestore_event[m[K’ [[01;35m[K-Wimplicit-function-declaration[m[K]
+   51 |                 case 'r': [01;35m[Krestore_event[m[K(&event_tbl);
+      |                           [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[Ksport_db.c:53:27:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Kerase_event[m[K’ [[01;35m[K-Wimplicit-function-declaration[m[K]
+   53 |                 case 'e': [01;35m[Kerase_event[m[K(&event_tbl);
+      |                           [01;35m[K^~~~~~~~~~~[m[K
+[01m[Ksport_db.c:66:27:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Kinsert_athlete[m[K’ [[01;35m[K-Wimplicit-function-declaration[m[K]
+   66 |                 case 'i': [01;35m[Kinsert_athlete[m[K(&athlete_tbl);
+      |                           [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[Ksport_db.c:68:27:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Ksearch_athlete[m[K’ [[01;35m[K-Wimplicit-function-declaration[m[K]
+   68 |                 case 's': [01;35m[Ksearch_athlete[m[K(&athlete_tbl);
+      |                           [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[Ksport_db.c:70:27:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Kupdate_athlete[m[K’ [[01;35m[K-Wimplicit-function-declaration[m[K]
+   70 |                 case 'u': [01;35m[Kupdate_athlete[m[K(&athlete_tbl);
+      |                           [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[Ksport_db.c:72:27:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Kprint_athlete[m[K’; did you mean ‘[01m[Kprint_help[m[K’? [[01;35m[K-Wimplicit-function-declaration[m[K]
+   72 |                 case 'p': [01;35m[Kprint_athlete[m[K(&athlete_tbl);
+      |                           [01;35m[K^~~~~~~~~~~~~[m[K
+      |                           [32m[Kprint_help[m[K
+[01m[Ksport_db.c:74:27:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Kdump_athlete[m[K’ [[01;35m[K-Wimplicit-function-declaration[m[K]
+   74 |                 case 'd': [01;35m[Kdump_athlete[m[K(&athlete_tbl);
+      |                           [01;35m[K^~~~~~~~~~~~[m[K
+[01m[Ksport_db.c:76:27:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Krestore_athlete[m[K’ [[01;35m[K-Wimplicit-function-declaration[m[K]
+   76 |                 case 'r': [01;35m[Krestore_athlete[m[K(&athlete_tbl);
+      |                           [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[Ksport_db.c:78:27:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Kerase_athlete[m[K’ [[01;35m[K-Wimplicit-function-declaration[m[K]
+   78 |                 case 'e': [01;35m[Kerase_athlete[m[K(&athlete_tbl);
+      |                           [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[Ksport_db.c:91:27:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Kinsert_registration[m[K’ [[01;35m[K-Wimplicit-function-declaration[m[K]
+   91 |                 case 'i': [01;35m[Kinsert_registration[m[K(&registration_tb1);
+      |                           [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[Ksport_db.c:93:27:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Ksearch_registration[m[K’ [[01;35m[K-Wimplicit-function-declaration[m[K]
+   93 |                 case 's': [01;35m[Ksearch_registration[m[K(&registration_tb1);
+      |                           [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[Ksport_db.c:95:27:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Kupdate_registration[m[K’ [[01;35m[K-Wimplicit-function-declaration[m[K]
+   95 |                 case 'u': [01;35m[Kupdate_registration[m[K(&registration_tb1);
+      |                           [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[Ksport_db.c:97:27:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Kprint_registration[m[K’ [[01;35m[K-Wimplicit-function-declaration[m[K]
+   97 |                 case 'p': [01;35m[Kprint_registration[m[K(&registration_tb1);
+      |                           [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[Ksport_db.c:99:27:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Kdump_registration[m[K’ [[01;35m[K-Wimplicit-function-declaration[m[K]
+   99 |                 case 'd': [01;35m[Kdump_registration[m[K(&registration_tb1);
+      |                           [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[Ksport_db.c:101:27:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Krestore_registration[m[K’ [[01;35m[K-Wimplicit-function-declaration[m[K]
+  101 |                 case 'r': [01;35m[Krestore_registration[m[K(&registration_tb1);
+      |                           [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Ksport_db.c:103:27:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Kerase_registration[m[K’ [[01;35m[K-Wimplicit-function-declaration[m[K]
+  103 |                 case 'e': [01;35m[Kerase_registration[m[K(&registration_tb1);
+      |                           [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+gcc -Wall -Wpedantic -Wextra -std=c99   -c -o sport_events.o sport_events.c
+[01m[Ksport_events.c:[m[K In function ‘[01m[Kinsert_event[m[K’:
+[01m[Ksport_events.c:103:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KeVar[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  103 | void insert_event([01;35m[Kstruct event **eVar[m[K){
+      |                   [01;35m[K~~~~~~~~~~~~~~~^~~~[m[K
+[01m[Ksport_events.c:[m[K In function ‘[01m[Ksearch_event[m[K’:
+[01m[Ksport_events.c:167:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KeVar[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  167 | void search_event([01;35m[Kstruct event **eVar[m[K){
+      |                   [01;35m[K~~~~~~~~~~~~~~~^~~~[m[K
+[01m[Ksport_events.c:[m[K In function ‘[01m[Kupdate_event[m[K’:
+[01m[Ksport_events.c:184:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kchange[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  184 |     int code, [01;35m[Kchange[m[K;
+      |               [01;35m[K^~~~~~[m[K
+[01m[Ksport_events.c:183:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KeVar[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  183 | void update_event([01;35m[Kstruct event **eVar[m[K){
+      |                   [01;35m[K~~~~~~~~~~~~~~~^~~~[m[K
+[01m[Ksport_events.c:[m[K In function ‘[01m[Kprint_event[m[K’:
+[01m[Ksport_events.c:221:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KeVar[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  221 | void print_event([01;35m[Kstruct event **eVar[m[K){
+      |                  [01;35m[K~~~~~~~~~~~~~~~^~~~[m[K
+[01m[Ksport_events.c:[m[K In function ‘[01m[Kerase_event[m[K’:
+[01m[Ksport_events.c:233:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ke[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  233 |     struct event *[01;35m[Ke[m[K, *cur, *prev;
+      |                   [01;35m[K^[m[K
+[01m[Ksport_events.c:231:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KeVar[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  231 | void erase_event([01;35m[Kstruct event **eVar[m[K){
+      |                  [01;35m[K~~~~~~~~~~~~~~~^~~~[m[K
+gcc -Wall -Wpedantic -Wextra -std=c99   -c -o sport_athlete.o sport_athlete.c
+[01m[Ksport_athlete.c:[m[K In function ‘[01m[Kinsert_athlete[m[K’:
+[01m[Ksport_athlete.c:102:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KeVar[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  102 | void insert_athlete([01;35m[Kstruct athlete **eVar[m[K){
+      |                     [01;35m[K~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[Ksport_athlete.c:[m[K In function ‘[01m[Ksearch_athlete[m[K’:
+[01m[Ksport_athlete.c:160:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KeVar[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  160 | void search_athlete([01;35m[Kstruct athlete **eVar[m[K){
+      |                     [01;35m[K~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[Ksport_athlete.c:[m[K In function ‘[01m[Kupdate_athlete[m[K’:
+[01m[Ksport_athlete.c:177:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kchange[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  177 |     int code, [01;35m[Kchange[m[K;
+      |               [01;35m[K^~~~~~[m[K
+[01m[Ksport_athlete.c:176:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KeVar[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  176 | void update_athlete([01;35m[Kstruct athlete **eVar[m[K){
+      |                     [01;35m[K~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[Ksport_athlete.c:[m[K In function ‘[01m[Kprint_athlete[m[K’:
+[01m[Ksport_athlete.c:214:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KeVar[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  214 | void print_athlete([01;35m[Kstruct athlete **eVar[m[K){
+      |                    [01;35m[K~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[Ksport_athlete.c:[m[K In function ‘[01m[Kerase_athlete[m[K’:
+[01m[Ksport_athlete.c:225:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ke[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  225 |     struct athlete *[01;35m[Ke[m[K, *cur, *prev;
+      |                     [01;35m[K^[m[K
+[01m[Ksport_athlete.c:223:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KeVar[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  223 | void erase_athlete([01;35m[Kstruct athlete **eVar[m[K){
+      |                    [01;35m[K~~~~~~~~~~~~~~~~~^~~~[m[K
+gcc -Wall -Wpedantic -Wextra -std=c99   -c -o sport_registration.o sport_registration.c
+[01m[Ksport_registration.c:[m[K In function ‘[01m[Kinsert_registration[m[K’:
+[01m[Ksport_registration.c:133:9:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Kfind_event[m[K’ [[01;35m[K-Wimplicit-function-declaration[m[K]
+  133 |     e = [01;35m[Kfind_event[m[K(eCode);
+      |         [01;35m[K^~~~~~~~~~[m[K
+[01m[Ksport_registration.c:133:7:[m[K [01;35m[Kwarning: [m[Kassignment to ‘[01m[Kstruct event *[m[K’ from ‘[01m[Kint[m[K’ makes pointer from integer without a cast [[01;35m[K-Wint-conversion[m[K]
+  133 |     e [01;35m[K=[m[K find_event(eCode);
+      |       [01;35m[K^[m[K
+[01m[Ksport_registration.c:145:9:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Kfind_athlete[m[K’ [[01;35m[K-Wimplicit-function-declaration[m[K]
+  145 |     a = [01;35m[Kfind_athlete[m[K(aCode);
+      |         [01;35m[K^~~~~~~~~~~~[m[K
+[01m[Ksport_registration.c:145:7:[m[K [01;35m[Kwarning: [m[Kassignment to ‘[01m[Kstruct athlete *[m[K’ from ‘[01m[Kint[m[K’ makes pointer from integer without a cast [[01;35m[K-Wint-conversion[m[K]
+  145 |     a [01;35m[K=[m[K find_athlete(aCode);
+      |       [01;35m[K^[m[K
+[01m[Ksport_registration.c:102:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrVar[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  102 | void insert_registration([01;35m[Kstruct registration **rVar[m[K){
+      |                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[Ksport_registration.c:[m[K In function ‘[01m[Ksearch_registration[m[K’:
+[01m[Ksport_registration.c:162:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrVar[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  162 | void search_registration([01;35m[Kstruct registration **rVar[m[K){
+      |                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[Ksport_registration.c:[m[K In function ‘[01m[Kupdate_registration[m[K’:
+[01m[Ksport_registration.c:193:11:[m[K [01;35m[Kwarning: [m[Kassignment to ‘[01m[Kstruct event *[m[K’ from ‘[01m[Kint[m[K’ makes pointer from integer without a cast [[01;35m[K-Wint-conversion[m[K]
+  193 |         e [01;35m[K=[m[K find_event(eCode);
+      |           [01;35m[K^[m[K
+[01m[Ksport_registration.c:206:11:[m[K [01;35m[Kwarning: [m[Kassignment to ‘[01m[Kstruct athlete *[m[K’ from ‘[01m[Kint[m[K’ makes pointer from integer without a cast [[01;35m[K-Wint-conversion[m[K]
+  206 |         a [01;35m[K=[m[K find_athlete(aCode);
+      |           [01;35m[K^[m[K
+[01m[Ksport_registration.c:179:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kchange[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  179 |     int code, [01;35m[Kchange[m[K;
+      |               [01;35m[K^~~~~~[m[K
+[01m[Ksport_registration.c:178:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrVar[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  178 | void update_registration([01;35m[Kstruct registration **rVar[m[K){
+      |                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[Ksport_registration.c:[m[K In function ‘[01m[Kprint_registration[m[K’:
+[01m[Ksport_registration.c:220:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrVar[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  220 | void print_registration([01;35m[Kstruct registration **rVar[m[K){
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[Ksport_registration.c:[m[K In function ‘[01m[Kerase_registration[m[K’:
+[01m[Ksport_registration.c:232:26:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kr[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  232 |     struct registration *[01;35m[Kr[m[K, *cur, *prev;
+      |                          [01;35m[K^[m[K
+[01m[Ksport_registration.c:230:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrVar[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  230 | void erase_registration([01;35m[Kstruct registration **rVar[m[K){
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+gcc -Wall -Wpedantic -Wextra -std=c99   -c -o readline.o readline.c
+gcc -o sport sport_db.o sport_events.o sport_athlete.o sport_registration.o readline.o
+]0;jbakela@compute:~/courses/CS2211/Assignments/Assignment5[?2004h[jbakela@compute Assignment5]$ ./spot
+[?2004lbash: ./spot: No such file or directory
+]0;jbakela@compute:~/courses/CS2211/Assignments/Assignment5[?2004h[jbakela@compute Assignment5]$ ./spot[Krt
+[?2004l****************************
+* 2211 Winter Olympics!    *
+****************************
+
+
+Enter entity type (h for help, q to quit, e for events, a for athletes, r for registration): e
+Event:
+	Enter operation code
+	(i to insert, s to search,
+	u to update, p to print,
+	d to dump, r to restore,
+	e to erase): ui  i
+        Enter event code: 1
+        Enter event name: Test
+        Enter number of competitors: 12
+        Enter the gender: M
+
+Enter entity type (h for help, q to quit, e for events, a for athletes, r for registration): e
+Event:
+	Enter operation code
+	(i to insert, s to search,
+	u to update, p to print,
+	d to dump, r to restore,
+	e to erase): s
+        Enter event code: 1
+Event Code    Event Name                  Competitors                  Gender
+1             Test                        12                           M
+
+Enter entity type (h for help, q to quit, e for events, a for athletes, r for registration): e
+Event:
+	Enter operation code
+	(i to insert, s to search,
+	u to update, p to print,
+	d to dump, r to restore,
+	e to erase): u
+        Enter event code: 1
+        Enter event name: Testing
+        Enter number of competitors: 13
+        Enter the gender: M W
+
+Enter entity type (h for help, q to quit, e for events, a for athletes, r for registration): e
+Event:
+	Enter operation code
+	(i to insert, s to search,
+	u to update, p to print,
+	d to dump, r to restore,
+	e to erase): p
+Event Code    Event Name                  Competitors                  Gender
+1             Testing                     13                           W
+
+Enter entity type (h for help, q to quit, e for events, a for athletes, r for registration): a
+Athlete:
+	Enter operation code
+	(i to insert, s to search,
+	u to update, p to print,
+	d to dump, r to restore,
+	e to erase): i
+        Enter athlete code: J 1
+        Enter Athlete name: Josh
+        Enter age of athlete: 19
+        Enter athlete gender: M
+
+Enter entity type (h for help, q to quit, e for events, a for athletes, r for registration): a
+Athlete:
+	Enter operation code
+	(i to insert, s to search,
+	u to update, p to print,
+	d to dump, r to restore,
+	e to erase): s
+        Enter event code: 1
+Athlete Code    Athlete Name                  Age                  Gender
+1               Josh                          19                   M
+
+Enter entity type (h for help, q to quit, e for events, a for athletes, r for registration): a
+Athlete:
+	Enter operation code
+	(i to insert, s to search,
+	u to update, p to print,
+	d to dump, r to restore,
+	e to erase): u
+        Enter athlete code: 1
+        Enter Athlete name: Joshua
+        Enter age of athlete: 1 20
+        Enter athlete gender: M
+
+Enter entity type (h for help, q to quit, e for events, a for athletes, r for registration): a
+Athlete:
+	Enter operation code
+	(i to insert, s to search,
+	u to update, p to print,
+	d to dump, r to restore,
+	e to erase): p
+Athlete Code    Athlete Name                  Age                  Gender
+1               Joshua                        20                   M
+
+Enter entity type (h for help, q to quit, e for events, a for athletes, r for registration): r
+Registration:
+	Enter operation code
+	(i to insert, s to search,
+	u to update, p to print,
+	d to dump, r to restore,
+	e to erase): i
+        Enter registration code: 1
+        Enter event code: 1
+ Event found.
+        Enter athlete code: 1
+ Athlete found.
+
+Enter entity type (h for help, q to quit, e for events, a for athletes, r for registration): r
+Registration:
+	Enter operation code
+	(i to insert, s to search,
+	u to update, p to print,
+	d to dump, r to restore,
+	e to erase): s
+        Enter registration code: 1
+Registration Code    Event Code                Athlete Code
+1             1                           1                           
+
+Enter entity type (h for help, q to quit, e for events, a for athletes, r for registration): q
+]0;jbakela@compute:~/courses/CS2211/Assignments/Assignment5[?2004h[jbakela@compute Assignment5]$ exit
+[?2004lexit
+
+Script done on 2022-04-06 16:44:29-04:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,64 @@
+#version 400
+
+layout (triangles) in;
+layout (triangle_strip, max_vertices=3) out;
+
+in vec3 position_worldspace[];
+in vec2 uv[];
+in vec3 normal_worldspace[];
+out vec3 normal;
+out vec3 position_worldspace_gs;
+out vec2 uv_gs;
+out vec3 normal_worldspace_gs;
+
+uniform mat4 modelViewProjMatrix;
+uniform sampler2D displacementTexture;
+uniform float time;
+
+const float PI = 3.14159265359;
+
+//use a local varible to store position of the arrays
+
+vec3 GetNormal(vec3 a, vec3 b, vec3 c)
+{
+   vec3 x = b.xyz - a.xyz;
+   vec3 y = c.xyz - b.xyz;
+   return normalize(cross(x, y));
+}
+
+vec3 Gerstner(vec3 position, float w, float A, float phi, float Q, vec2 D, int N) {
+    vec2 dir = vec2(1.0, 0.0);
+    vec2 pos = vec2(position.x, position.z);
+    float k = 2.0 * PI / w;
+    float f = k * dot(dir, D);
+    float p = w * (float(N) - 1.0) * time + phi * f;
+    float s = sin(f * (float(N) - 1.0) + p);
+    float c = cos(f * (float(N) - 1.0) + p);
+    vec2 offset = Q * A / k * vec2(s, c);
+    vec3 disp = vec3(texture(displacementTexture, pos / 100.0 + offset).xyz);
+    return vec3(position.x, position.y + disp.y, position.z);
+}
+
+void main() {
+    vec3 listPosition[1000];
+    // position change from waves
+    for(int i = 0; i < gl_in.length(); ++i) {
+        vec3 position = position_worldspace[i].xyz;
+        position = Gerstner(position, 4, 0.08, 1.1, 0.75, vec2(0.3, 0.6), 4);
+        position += Gerstner(position, 2, 0.05, 1.1, 0.75, vec2(0.2, 0.866), 4);
+        position += Gerstner(position, 0.6, 0.2, 0.4, 0.1, vec2(0.3, 0.7), 4);
+        position += Gerstner(position, 0.9, 0.15, 0.4, 0.1, vec2(0.8, 0.1), 4);
+        position.y += texture(displacementTexture, position.xz / 100.0).r * 0.05; // Displace using the red channel of the displacement texture
+        listPosition[i] = position;
+    }
+    
+    for(int i = 0; i < gl_in.length(); ++i) {
+        normal = GetNormal(listPosition[0], listPosition[1], listPosition[2]);
+        normal_worldspace_gs = normal;
+        gl_Position = modelViewProjMatrix * vec4(listPosition[i], 1.0);
+        position_worldspace_gs = listPosition[i];
+        uv_gs = uv[i];
+        EmitVertex();
+    }
+    EndPrimitive();
+}

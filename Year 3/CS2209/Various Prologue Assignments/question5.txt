@@ -1,0 +1,31 @@
+% Question5
+% Josh Bakelaar (251139121)
+% Give a list of numbers
+% Sum the list together
+sum([],0).
+    sum([H|T],Sum):-
+    sum(T, Rest),
+    Sum is H + Rest.
+
+% Mean of the list
+mean(List,Mean):-
+    sum(List,Sum),
+    length(List,Length),
+    Length > 0,
+    Mean is Sum / Length.
+
+% Min of the list
+min([Min], Min).
+min([Min | List], Min) :- 
+    min(List, List_Answer),
+    Min =< List_Answer, !.
+min([_Min | List], Answer) :-
+    min(List, Answer).
+
+% Max of the list
+    max([Max], Max).
+max([Max | List], Max) :- 
+    max(List, List_Answer),
+    Max >= List_Answer, !.
+max([_Max | List], Answer) :-
+    max(List, Answer).

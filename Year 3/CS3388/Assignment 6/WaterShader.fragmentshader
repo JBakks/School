@@ -1,0 +1,43 @@
+#version 400
+
+// Interpolated values from the vertex shaders
+in vec3 position_worldspace_gs;
+in vec2 uv_gs;
+in vec3 normal_worldspace_gs;
+
+// Ouput data
+out vec4 color_out;
+
+uniform sampler2D waterTexture;
+uniform vec4 modelcolor;
+uniform vec3 lightDirection;
+uniform vec3 eyeDirection; 
+
+void phongColor(vec3 normal_worldspace_gs) {
+
+    // Light emission properties
+    vec4 LightColor = vec4(1,1,1,1);
+    vec4 diffuse = texture(waterTexture, uv_gs);
+    vec4 ambient = 0.2 * diffuse;
+    vec4 specular = vec4(0.7, 0.7, 0.7, 1.0);
+
+    vec3 n = normalize(normal_worldspace_gs);
+    vec3 l = normalize(lightDirection);
+
+    float cosTheta = clamp(dot(n,l), 0, 1);
+
+    vec3 E = normalize(eyeDirection);
+    vec3 R = reflect(-l,n);
+
+    float cosAlpha = clamp(dot(E, R), 0, 1);
+
+    color_out = 
+    ambient + 
+    diffuse * LightColor * cosTheta +
+    specular * LightColor * pow(cosAlpha, 8);
+
+}
+
+void main(){
+    phongColor(normal_worldspace_gs);
+}

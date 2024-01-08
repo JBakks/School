@@ -1,0 +1,6 @@
+#!/bin/bash
+
+javac -Xlint:unchecked Heap.java
+javac -Xlint:unchecked Dijkstra.java
+
+java Dijkstra sssp_graph_medium.txt

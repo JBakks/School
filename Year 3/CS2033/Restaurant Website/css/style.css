@@ -1,0 +1,138 @@
+body {
+    background-color: rgb(250,250,250);
+}
+
+
+ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow Condensed';
+    font-size:35px;
+}
+
+textarea{
+    width: 1200px;
+    height: 100px;
+}
+
+.navLink{
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-family: 'Barlow Condensed';
+    
+}
+.ref{
+    font-family: 'Barlow Condensed';
+    font-size: 20px;
+}
+.menuLink{
+    text-decoration: underline;
+    color: black;
+    
+}
+
+.nav{
+    background-color: rgb(8,103,136);
+    text-align:center;
+    color: white;
+    transition: background-color 0.5s;
+}
+
+.rotate {
+  animation: rotation 2s alternate infinite ease-in-out;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(-5deg);
+  }
+}
+
+
+.active {
+    background-color: rgb(7,160,195);
+    margin: -10px;
+}
+
+.nav:hover:not(.active){
+    background-color: rgb(5, 68, 89);
+    transition: background-color 0.5s;
+}
+
+h1, h2, .input{
+    font-family: 'Raleway';
+}
+
+
+p{
+    font-size: 20px;
+    font-family: 'Raleway';
+}
+
+#banner {
+    margin-top: -10px; 
+}
+
+.tile{
+    background: url("../img/climpek.png");
+    border: 5px solid rgb(240,200,8);
+    margin-top: 10px;
+}
+
+.center{
+    text-align: center;
+}
+
+.image{
+    width: 100%;
+    border: 5px solid rgb(240,200,8);
+}
+
+.border{
+    border: 5px solid rgb(240,200,8);
+    padding: 10px;
+    margin: 10px;
+}
+
+.container{
+    display: flex;
+    
+}
+
+.menuText{
+    font-size: 20px;
+}
+.menuimg{
+    max-width: 300px;
+    padding: 0;
+}
+
+.image{
+    flex-basis: 0%;
+}
+
+.text{
+    font-size: 20px;
+    padding-left: 20px
+}
+
+.menuInfo{
+    font-size: 18px;
+}
+
+.right{
+    float: right;
+}
+
+.left{
+    float: left;
+}
+
+.contact{
+    text-decoration: underline
+}

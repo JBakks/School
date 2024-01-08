@@ -1,0 +1,8 @@
+Brazil;P=193,364,115;A=8,511,966
+Indonesia;P=260,581,345
+Japan;P=127,380,555;A=377,800
+Sweden;P=9,995,345;A=450,295;C = europe
+Italy; P = 59,801,999
+Canada;C=North America
+Egypt;A=1,000,000 ; P=93,384,001
+France;P =          64,668,129;P=64,668,150;A=541,666;C=Europe

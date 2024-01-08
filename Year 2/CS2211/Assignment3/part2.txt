@@ -1,0 +1,24 @@
+Josh Bakelaar (251139121)
+March 2nd 2022
+CS2211
+Part 2
+
+1) Files
+
+	1) You can use the command "echo *" you can pass things as arguments as well, but with no argument it will print out the files
+	2) you need to add the flag -i to prompt before a removal, adding -f will force to remove the file and never prompt. -f will always take precedence
+	3) The big differences are that rename cannot move a file where mv can, mv can also overwrite files which were already there
+	4) ELF stands for Executable and Linking Format
+	5) du will show the disk usage of the file, how much of the file system is used by it, where ls -l says the file size 
+2) Directories
+	1) mkdir -p grandparent/parent/child
+	2) you would have to add a \ infront of the space "mkdir hello\ world" the same would go for removing it "rm -r hello\ world"
+	3) mkdir -m500 helloworld
+	4) "cd -"
+	5) "cd.. 6" then use "pwdx" 
+3) Permissions
+	1) -c needs to be added to chmod
+	2) -reference=file1 will match the permissions set to file1
+	3) -c '%A %a %n' (FILE NAME) needs to be added
+	4) chmod 020 (FILE NAME)
+	5) +x will add the execute permission.

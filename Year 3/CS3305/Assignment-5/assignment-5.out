@@ -1,0 +1,428 @@
+Script started on 2023-04-06 23:34:37-04:00 [COMMAND="./run-assignment.sh 5" TERM="xterm-256color" TTY="/dev/pts/416" COLUMNS="160" LINES="16"]
+[H[2J[3J
+ASSIGNMENT 5 STARTED - Thu Apr  6 11:34:37 PM EDT 2023
+
+Cleaning environment
+----------------------------
+rm -f assignment-5
+
+Checking environment
+----------------------------
+af36ed4145c2285730afa41687618ffe  ./run-assignment.sh
+43cee42ae525de9d40a3c3a0bff078b5  assignment-5.c
+Makefile: OK
+
+Building environment
+----------------------------
+make all
+make[1]: Entering directory '/home/jbakela/courses/CS3305/Assignment-5'
+gcc -o assignment-5 assignment-5.c -Wall -Wpedantic -Wextra -std=gnu17
+make[1]: Leaving directory '/home/jbakela/courses/CS3305/Assignment-5'
+
+Assignment 5
+----------------------------
+Train 0 ENTERS Station 0
+	Station 0 has 500 passengers to drop off
+	Unloading 0 passengers...
+	Train 0 is at Station 0 and has 0/50 passengers
+Train 0 LEAVES Station 0
+	Station 0 has 500 passengers to pick up
+	Loading 50 passengers...
+	Train 0 is at Station 0 and has 50/50 passengers
+Train 0 LEAVES Station 0
+Train 0 ENTERS Station 1
+	Station 1 has 50 passengers to drop off
+	Unloading 50 passengers...
+	Train 0 is at Station 1 and has 0/50 passengers
+Train 0 LEAVES Station 1
+Train 0 ENTERS Station 2
+	Station 2 has 100 passengers to drop off
+	Unloading 0 passengers...
+	Train 0 is at Station 2 and has 0/50 passengers
+Train 0 LEAVES Station 2
+	Station 2 has 100 passengers to pick up
+	Loading 50 passengers...
+	Train 0 is at Station 2 and has 50/50 passengers
+Train 0 LEAVES Station 2
+Train 0 ENTERS Station 3
+	Station 3 has 250 passengers to drop off
+	Unloading 50 passengers...
+	Train 0 is at Station 3 and has 0/50 passengers
+Train 0 LEAVES Station 3
+	Station 3 has 200 passengers to pick up
+	Loading 50 passengers...
+	Train 0 is at Station 3 and has 50/50 passengers
+Train 0 LEAVES Station 3
+Train 0 ENTERS Station 4
+	Station 4 has 100 passengers to drop off
+	Unloading 50 passengers...
+	Train 0 is at Station 4 and has 0/50 passengers
+Train 0 LEAVES Station 4
+	Station 4 has 50 passengers to pick up
+	Loading 50 passengers...
+	Train 0 is at Station 4 and has 50/50 passengers
+Train 0 LEAVES Station 4
+Train 0 ENTERS Station 0
+	Station 0 has 450 passengers to drop off
+	Unloading 50 passengers...
+	Train 0 is at Station 0 and has 0/50 passengers
+Train 0 LEAVES Station 0
+	Station 0 has 400 passengers to pick up
+	Loading 50 passengers...
+	Train 0 is at Station 0 and has 50/50 passengers
+Train 0 LEAVES Station 0
+Train 0 ENTERS Station 1
+	Station 1 has 0 passengers to drop off
+	Unloading 0 passengers...
+	Train 0 is at Station 1 and has 50/50 passengers
+Train 0 LEAVES Station 1
+Train 0 ENTERS Station 2
+	Station 2 has 50 passengers to drop off
+	Unloading 50 passengers...
+	Train 0 is at Station 2 and has 0/50 passengers
+Train 0 LEAVES Station 2
+Train 0 ENTERS Station 3
+	Station 3 has 150 passengers to drop off
+	Unloading 0 passengers...
+	Train 0 is at Station 3 and has 0/50 passengers
+Train 0 LEAVES Station 3
+	Station 3 has 150 passengers to pick up
+	Loading 50 passengers...
+	Train 0 is at Station 3 and has 50/50 passengers
+Train 0 LEAVES Station 3
+Train 0 ENTERS Station 4
+	Station 4 has 0 passengers to drop off
+	Unloading 0 passengers...
+	Train 0 is at Station 4 and has 50/50 passengers
+Train 0 LEAVES Station 4
+Train 0 ENTERS Station 0
+	Station 0 has 350 passengers to drop off
+	Unloading 50 passengers...
+	Train 0 is at Station 0 and has 0/50 passengers
+Train 0 LEAVES Station 0
+	Station 0 has 300 passengers to pick up
+	Loading 50 passengers...
+	Train 0 is at Station 0 and has 50/50 passengers
+Train 0 LEAVES Station 0
+Train 0 ENTERS Station 1
+	Station 1 has 0 passengers to drop off
+	Unloading 0 passengers...
+	Train 0 is at Station 1 and has 50/50 passengers
+Train 0 LEAVES Station 1
+Train 0 ENTERS Station 2
+	Station 2 has 0 passengers to drop off
+	Unloading 0 passengers...
+	Train 0 is at Station 2 and has 50/50 passengers
+Train 0 LEAVES Station 2
+Train 0 ENTERS Station 3
+	Station 3 has 100 passengers to drop off
+	Unloading 50 passengers...
+	Train 0 is at Station 3 and has 0/50 passengers
+Train 0 LEAVES Station 3
+	Station 3 has 50 passengers to pick up
+	Loading 50 passengers...
+	Train 0 is at Station 3 and has 50/50 passengers
+Train 0 LEAVES Station 3
+Train 0 ENTERS Station 4
+	Station 4 has 0 passengers to drop off
+	Unloading 0 passengers...
+	Train 0 is at Station 4 and has 50/50 passengers
+Train 0 LEAVES Station 4
+Train 0 ENTERS Station 0
+	Station 0 has 250 passengers to drop off
+	Unloading 50 passengers...
+	Train 0 is at Station 0 and has 0/50 passengers
+Train 0 LEAVES Station 0
+	Station 0 has 200 passengers to pick up
+	Loading 50 passengers...
+	Train 0 is at Station 0 and has 50/50 passengers
+Train 0 LEAVES Station 0
+Train 0 ENTERS Station 1
+	Station 1 has 0 passengers to drop off
+	Unloading 0 passengers...
+	Train 0 is at Station 1 and has 50/50 passengers
+Train 0 LEAVES Station 1
+Train 0 ENTERS Station 2
+	Station 2 has 0 passengers to drop off
+	Unloading 0 passengers...
+	Train 0 is at Station 2 and has 50/50 passengers
+Train 0 LEAVES Station 2
+Train 0 ENTERS Station 3
+	Station 3 has 0 passengers to drop off
+	Unloading 0 passengers...
+	Train 0 is at Station 3 and has 50/50 passengers
+Train 0 LEAVES Station 3
+Train 0 ENTERS Station 4
+	Station 4 has 0 passengers to drop off
+	Unloading 0 passengers...
+	Train 0 is at Station 4 and has 50/50 passengers
+Train 0 LEAVES Station 4
+Train 0 ENTERS Station 0
+	Station 0 has 150 passengers to drop off
+	Unloading 50 passengers...
+	Train 0 is at Station 0 and has 0/50 passengers
+Train 0 LEAVES Station 0
+	Station 0 has 100 passengers to pick up
+	Loading 50 passengers...
+	Train 0 is at Station 0 and has 50/50 passengers
+Train 0 LEAVES Station 0
+Train 0 ENTERS Station 1
+	Station 1 has 0 passengers to drop off
+	Unloading 0 passengers...
+	Train 0 is at Station 1 and has 50/50 passengers
+Train 0 LEAVES Station 1
+Train 0 ENTERS Station 2
+	Station 2 has 0 passengers to drop off
+	Unloading 0 passengers...
+	Train 0 is at Station 2 and has 50/50 passengers
+Train 0 LEAVES Station 2
+Train 0 ENTERS Station 3
+	Station 3 has 0 passengers to drop off
+	Unloading 0 passengers...
+	Train 0 is at Station 3 and has 50/50 passengers
+Train 0 LEAVES Station 3
+Train 0 ENTERS Station 4
+	Station 4 has 0 passengers to drop off
+	Unloading 0 passengers...
+	Train 0 is at Station 4 and has 50/50 passengers
+Train 0 LEAVES Station 4
+Train 0 ENTERS Station 0
+	Station 0 has 50 passengers to drop off
+	Unloading 50 passengers...
+	Train 0 is at Station 0 and has 0/50 passengers
+Train 0 LEAVES Station 0
+Train 0 ENTERS Station 1
+	Station 1 has 0 passengers to drop off
+	Unloading 0 passengers...
+	Train 0 is at Station 1 and has 0/50 passengers
+Train 0 LEAVES Station 1
+Train 0 ENTERS Station 2
+	Station 2 has 0 passengers to drop off
+	Unloading 0 passengers...
+	Train 0 is at Station 2 and has 0/50 passengers
+Train 0 LEAVES Station 2
+Train 0 ENTERS Station 3
+	Station 3 has 0 passengers to drop off
+	Unloading 0 passengers...
+	Train 0 is at Station 3 and has 0/50 passengers
+Train 0 LEAVES Station 3
+Train 0 ENTERS Station 4
+	Station 4 has 0 passengers to drop off
+	Unloading 0 passengers...
+	Train 0 is at Station 4 and has 0/50 passengers
+Train 0 LEAVES Station 4
+Train 1 ENTERS Station 0
+	Station 0 has 0 passengers to drop off
+	Unloading 0 passengers...
+	Train 1 is at Station 0 and has 0/100 passengers
+Train 1 LEAVES Station 0
+Train 1 ENTERS Station 1
+	Station 1 has 0 passengers to drop off
+	Unloading 0 passengers...
+	Train 1 is at Station 1 and has 0/100 passengers
+Train 1 LEAVES Station 1
+Train 1 ENTERS Station 2
+	Station 2 has 0 passengers to drop off
+	Unloading 0 passengers...
+	Train 1 is at Station 2 and has 0/100 passengers
+Train 1 LEAVES Station 2
+Train 1 ENTERS Station 3
+	Station 3 has 0 passengers to drop off
+	Unloading 0 passengers...
+	Train 1 is at Station 3 and has 0/100 passengers
+Train 1 LEAVES Station 3
+Train 1 ENTERS Station 4
+	Station 4 has 0 passengers to drop off
+	Unloading 0 passengers...
+	Train 1 is at Station 4 and has 0/100 passengers
+Train 1 LEAVES Station 4
+
+real	1m40.007s
+user	0m0.001s
+sys	0m0.002s
+Train 1 ENTERS Station 0
+	Station 0 has 500 passengers to drop off
+	Unloading 0 passengers...
+	Train 1 is at Station 0 and has 0/100 passengers
+Train 1 LEAVES Station 0
+	Station 0 has 500 passengers to pick up
+	Loading 100 passengers...
+	Train 1 is at Station 0 and has 100/100 passengers
+Train 1 LEAVES Station 0
+Train 1 ENTERS Station 1
+	Station 1 has 50 passengers to drop off
+	Unloading 50 passengers...
+	Train 1 is at Station 1 and has 50/100 passengers
+Train 1 LEAVES Station 1
+Train 1 ENTERS Station 2
+	Station 2 has 100 passengers to drop off
+	Unloading 50 passengers...
+	Train 1 is at Station 2 and has 0/100 passengers
+Train 1 LEAVES Station 2
+	Station 2 has 50 passengers to pick up
+	Loading 50 passengers...
+	Train 1 is at Station 2 and has 50/100 passengers
+Train 1 LEAVES Station 2
+Train 1 ENTERS Station 3
+	Station 3 has 250 passengers to drop off
+	Unloading 50 passengers...
+	Train 1 is at Station 3 and has 0/100 passengers
+Train 1 LEAVES Station 3
+	Station 3 has 200 passengers to pick up
+	Loading 100 passengers...
+	Train 1 is at Station 3 and has 100/100 passengers
+Train 1 LEAVES Station 3
+Train 1 ENTERS Station 4
+	Station 4 has 100 passengers to drop off
+	Unloading 100 passengers...
+	Train 1 is at Station 4 and has 0/100 passengers
+Train 1 LEAVES Station 4
+Train 1 ENTERS Station 0
+	Station 0 has 400 passengers to drop off
+	Unloading 0 passengers...
+	Train 1 is at Station 0 and has 0/100 passengers
+Train 1 LEAVES Station 0
+	Station 0 has 400 passengers to pick up
+	Loading 100 passengers...
+	Train 1 is at Station 0 and has 100/100 passengers
+Train 1 LEAVES Station 0
+Train 1 ENTERS Station 1
+	Station 1 has 0 passengers to drop off
+	Unloading 0 passengers...
+	Train 1 is at Station 1 and has 100/100 passengers
+Train 1 LEAVES Station 1
+Train 1 ENTERS Station 2
+	Station 2 has 0 passengers to drop off
+	Unloading 0 passengers...
+	Train 1 is at Station 2 and has 100/100 passengers
+Train 1 LEAVES Station 2
+Train 1 ENTERS Station 3
+	Station 3 has 100 passengers to drop off
+	Unloading 100 passengers...
+	Train 1 is at Station 3 and has 0/100 passengers
+Train 1 LEAVES Station 3
+Train 1 ENTERS Station 4
+	Station 4 has 0 passengers to drop off
+	Unloading 0 passengers...
+	Train 1 is at Station 4 and has 0/100 passengers
+Train 1 LEAVES Station 4
+Train 1 ENTERS Station 0
+	Station 0 has 300 passengers to drop off
+	Unloading 0 passengers...
+	Train 1 is at Station 0 and has 0/100 passengers
+Train 1 LEAVES Station 0
+	Station 0 has 300 passengers to pick up
+	Loading 100 passengers...
+	Train 1 is at Station 0 and has 100/100 passengers
+Train 1 LEAVES Station 0
+Train 1 ENTERS Station 1
+	Station 1 has 0 passengers to drop off
+	Unloading 0 passengers...
+	Train 1 is at Station 1 and has 100/100 passengers
+Train 1 LEAVES Station 1
+Train 1 ENTERS Station 2
+	Station 2 has 0 passengers to drop off
+	Unloading 0 passengers...
+	Train 1 is at Station 2 and has 100/100 passengers
+Train 1 LEAVES Station 2
+Train 1 ENTERS Station 3
+	Station 3 has 0 passengers to drop off
+	Unloading 0 passengers...
+	Train 1 is at Station 3 and has 100/100 passengers
+Train 1 LEAVES Station 3
+Train 1 ENTERS Station 4
+	Station 4 has 0 passengers to drop off
+	Unloading 0 passengers...
+	Train 1 is at Station 4 and has 100/100 passengers
+Train 1 LEAVES Station 4
+Train 1 ENTERS Station 0
+	Station 0 has 200 passengers to drop off
+	Unloading 100 passengers...
+	Train 1 is at Station 0 and has 0/100 passengers
+Train 1 LEAVES Station 0
+	Station 0 has 100 passengers to pick up
+	Loading 100 passengers...
+	Train 1 is at Station 0 and has 100/100 passengers
+Train 1 LEAVES Station 0
+Train 1 ENTERS Station 1
+	Station 1 has 0 passengers to drop off
+	Unloading 0 passengers...
+	Train 1 is at Station 1 and has 100/100 passengers
+Train 1 LEAVES Station 1
+Train 1 ENTERS Station 2
+	Station 2 has 0 passengers to drop off
+	Unloading 0 passengers...
+	Train 1 is at Station 2 and has 100/100 passengers
+Train 1 LEAVES Station 2
+Train 1 ENTERS Station 3
+	Station 3 has 0 passengers to drop off
+	Unloading 0 passengers...
+	Train 1 is at Station 3 and has 100/100 passengers
+Train 1 LEAVES Station 3
+Train 1 ENTERS Station 4
+	Station 4 has 0 passengers to drop off
+	Unloading 0 passengers...
+	Train 1 is at Station 4 and has 100/100 passengers
+Train 1 LEAVES Station 4
+Train 1 ENTERS Station 0
+	Station 0 has 0 passengers to drop off
+	Unloading 0 passengers...
+	Train 1 is at Station 0 and has 100/100 passengers
+Train 1 LEAVES Station 0
+Train 1 ENTERS Station 1
+	Station 1 has 0 passengers to drop off
+	Unloading 0 passengers...
+	Train 1 is at Station 1 and has 100/100 passengers
+Train 1 LEAVES Station 1
+Train 1 ENTERS Station 2
+	Station 2 has 0 passengers to drop off
+	Unloading 0 passengers...
+	Train 1 is at Station 2 and has 100/100 passengers
+Train 1 LEAVES Station 2
+Train 1 ENTERS Station 3
+	Station 3 has 0 passengers to drop off
+	Unloading 0 passengers...
+	Train 1 is at Station 3 and has 100/100 passengers
+Train 1 LEAVES Station 3
+Train 1 ENTERS Station 4
+	Station 4 has 0 passengers to drop off
+	Unloading 0 passengers...
+	Train 1 is at Station 4 and has 100/100 passengers
+Train 1 LEAVES Station 4
+Train 0 ENTERS Station 0
+	Station 0 has 0 passengers to drop off
+	Unloading 0 passengers...
+	Train 0 is at Station 0 and has 0/50 passengers
+Train 0 LEAVES Station 0
+Train 0 ENTERS Station 1
+	Station 1 has 0 passengers to drop off
+	Unloading 0 passengers...
+	Train 0 is at Station 1 and has 0/50 passengers
+Train 0 LEAVES Station 1
+Train 0 ENTERS Station 2
+	Station 2 has 0 passengers to drop off
+	Unloading 0 passengers...
+	Train 0 is at Station 2 and has 0/50 passengers
+Train 0 LEAVES Station 2
+Train 0 ENTERS Station 3
+	Station 3 has 0 passengers to drop off
+	Unloading 0 passengers...
+	Train 0 is at Station 3 and has 0/50 passengers
+Train 0 LEAVES Station 3
+Train 0 ENTERS Station 4
+	Station 4 has 0 passengers to drop off
+	Unloading 0 passengers...
+	Train 0 is at Station 4 and has 0/50 passengers
+Train 0 LEAVES Station 4
+
+real	1m40.009s
+user	0m0.002s
+sys	0m0.000s
+
+Cleaning environment
+----------------------------
+rm -f assignment-5
+
+ASSIGNMENT 5 COMPLETED - Thu Apr  6 11:38:03 PM EDT 2023
+
+Script done on 2023-04-06 23:38:03-04:00 [COMMAND_EXIT_CODE="0"]

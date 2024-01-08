@@ -1,0 +1,4 @@
+#!/bin/bash
+
+javac asn2_b.java
+java asn2_b < infile
