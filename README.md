@@ -19,17 +19,17 @@ Code that I have written during my time at UWO (University Western Ontario).
 - Computer Science 2209: Applied Logic for Comp Sci
 - Computer Science 2212: Intro to Software Engineering
 - Computer Science 3305: Operating Systems
-- Computer Science 3307: Object-Oriented Design amd Analysis
+- Computer Science 3307: Object-Oriented Design and Analysis
 - Computer Science 3340: Analysis of Algorithms I
 - Computer Science 3377: Software Project Management
 - Computer Science 3388: Computer Graphics I
 ## Year 4
 - Computer Science 3319: Databases I
-- Computer Science 3346: Artificial Intellegence I
-- Computer Science 4417: Unstructured Data
+- Computer Science 3346: Artificial Intelligence I
 - Computer Science 4442: Artificial Intelligence II
 - Computer Science 4471: Software Design and Architecture
 - Computer Science 4474: Human-Computer Interaction
+- Computer Science 4478: IBM Z Xplore
 - Computer Science 4480: Game Development Project
 - Computer Science 4482: Game Programming
 - Computer Science 4483: Game Design
